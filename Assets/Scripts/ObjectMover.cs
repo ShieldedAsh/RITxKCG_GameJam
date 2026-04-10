@@ -25,6 +25,7 @@ public class ObjectMover : MonoBehaviour
         if (transform.position.x >= despawnThreshold)
         {
             Destroy(this.gameObject);
+            ObjectManager.objects.Remove(this.gameObject);
         }
 
         //Move the object at a fixed rate

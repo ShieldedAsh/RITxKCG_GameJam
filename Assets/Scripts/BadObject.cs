@@ -13,6 +13,7 @@ public class BadObject : MonoBehaviour
         {
             ObjectManager.totalScore += objScore;
             Debug.Log(ObjectManager.totalScore);
+            ObjectManager.objects.Remove(this.gameObject);
             Destroy(this.gameObject);
         }
     }
