@@ -12,6 +12,9 @@ public class PunchCursor : MonoBehaviour
     Vector3 bottomLeft;
     Vector3 topRight;
 
+    /// <summary>
+    /// ‰Šú‰»
+    /// </summary>
     public void Initialize()
     {
         Cursor.visible = false;
@@ -22,6 +25,9 @@ public class PunchCursor : MonoBehaviour
         topRight = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, 0));
     }
 
+    /// <summary>
+    /// XVˆ—
+    /// </summary>
     public void SelfUpdate()
     {
         Vector3 mouseMoveVec = Mouse.current.delta.ReadValue();

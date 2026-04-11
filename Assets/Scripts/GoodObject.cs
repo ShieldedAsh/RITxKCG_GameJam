@@ -1,12 +1,8 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class GoodObject : MonoBehaviour
+public class GoodObject : ObjectBase
 {
-    [SerializeField]
-    //this specific objects score
-    private int objScore;
-    
     private void OnMouseOver()
     {
         if (Mouse.current.leftButton.isPressed)
