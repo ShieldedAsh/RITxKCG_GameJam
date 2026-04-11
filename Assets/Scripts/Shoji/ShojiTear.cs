@@ -5,14 +5,6 @@ public class ShojiTear : MonoBehaviour
     // áq‚Ì”j‰óƒtƒ‰ƒO
     public BreakLevel breakLevel { get; private set; }
 
-    // ”j‰óƒŒƒxƒ‹
-    public enum BreakLevel
-    {
-        NotBreak,
-        Break,
-        TrueBreak
-    }
-
     // áq‚Ì‰i‹v”j‰óƒtƒ‰ƒO
     private bool _isTrueBreak;
 
@@ -43,7 +35,7 @@ public class ShojiTear : MonoBehaviour
     /// </summary>
     private void OnMouseDown()
     {
-        breakLevel = BreakLevel.Break;
+        breakLevel = BreakLevel.TrueBreak;
     }
 
     /// <summary>
