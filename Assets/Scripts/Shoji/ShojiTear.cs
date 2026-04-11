@@ -63,4 +63,20 @@ public class ShojiTear : MonoBehaviour
         _isTrueBreak = false;
         timeSinceBreak = 0f;
     }
+
+    /// <summary>
+    /// セッタ：破壊レベルをBreakに
+    /// </summary>
+    public void SetBreakLevelBreak()
+    {
+        breakLevel = BreakLevel.Break;
+    }
+
+    /// <summary>
+    /// セッタ：破壊レベルをTrueBreakに
+    /// </summary>
+    public void SetBreakLevelTrueBreak()
+    {
+        breakLevel = BreakLevel.TrueBreak;
+    }
 }
