@@ -1,0 +1,23 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "Shoji_girl2.moc3",
+		"Textures": [
+			"Shoji_girl2.4096/texture_00.png"
+		],
+		"Physics": "Shoji_girl2.physics3.json",
+		"DisplayInfo": "Shoji_girl2.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	]
+}

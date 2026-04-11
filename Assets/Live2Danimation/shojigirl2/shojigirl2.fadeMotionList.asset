@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 403ae2dd693bb1d4b924f6b8d206b053, type: 3}
+  m_Name: shojigirl2.fadeMotionList
+  m_EditorClassIdentifier: Live2D.Cubism::Live2D.Cubism.Framework.MotionFade.CubismFadeMotionList
+  MotionInstanceIds: 6cf0ffff42f0ffff26f0ffff0af0ffffeeefffffd2efffffb6efffff9aefffff
+  CubismFadeMotionObjects:
+  - {fileID: 11400000, guid: 9d679b4c116b87f48b06680324e8cff2, type: 2}
+  - {fileID: 11400000, guid: 3be9cad31889559458bfaf79ed54a51a, type: 2}
+  - {fileID: 11400000, guid: 124433371b97ecc4d9d4916ca3e2bb8e, type: 2}
+  - {fileID: 11400000, guid: a7af0311d2e5a7e49a693318a5442fa1, type: 2}
+  - {fileID: 11400000, guid: 6f4672383f455d44f836ec9b6b6a832f, type: 2}
+  - {fileID: 11400000, guid: 6512722ebe486bb4ca121067d8d10578, type: 2}
+  - {fileID: 11400000, guid: e665080ac9d3ff248b87a7dd9f8dcd2b, type: 2}
+  - {fileID: 11400000, guid: b8f3573f7836d024388d96223ff3b4e3, type: 2}
