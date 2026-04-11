@@ -4,6 +4,14 @@ using UnityEngine;
 using UnityEngine.U2D;
 using static ShojiTear;
 
+// ”j‰óƒŒƒxƒ‹
+public enum BreakLevel
+{
+    NotBreak,
+    Break,
+    TrueBreak
+}
+
 public class ShojiManager : MonoBehaviour
 {
 
@@ -72,7 +80,9 @@ public class ShojiManager : MonoBehaviour
                     y * _ySpacing,
                     0f
                 );
-                var shoji = CreateShoji(pos, x + (_createHeight - 1 - y) * 10);
+                int spriteNum = x + (_createHeight - 1 - y) * 10;
+                if (spriteNum >= 20) spriteNum -= 10;
+                var shoji = CreateShoji(pos, spriteNum);
                 _shojis[y, x] = shoji;
             }
         }
@@ -144,7 +154,7 @@ public class ShojiManager : MonoBehaviour
             {
                 if (pattern[y, x])
                 {
-                    if (_shojis[startY + y, startX + x].breakLevel == BreakLevel.NotBreak)
+                    if (_shojis[startY + y, startX + x].breakLevel != BreakLevel.TrueBreak)
                         return false;
                 }
             }
