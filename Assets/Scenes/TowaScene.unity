@@ -152,7 +152,7 @@ MonoBehaviour:
   _createHeight: 6
   _xSpacing: 1
   _ySpacing: 1
-  _startPosition: {x: -5, y: -4, z: 0}
+  _startPosition: {x: 0, y: 0, z: 0}
   _shojiPrefab: {fileID: 6491869188015658585, guid: d4a47d682325ca54b932b967ebf31891, type: 3}
   _pattern: {fileID: 1901365289}
   sprites: []
