@@ -1,0 +1,169 @@
+using System;
+using System.Collections.Generic;
+using UnityEngine;
+using static ShojiTear;
+
+public class ShojiManager : MonoBehaviour
+{
+
+    // 障子
+    private ShojiTear[,] _shojis;
+
+    [Header("CreateCounts")]
+    // 生成する横幅
+    [SerializeField] private int _createWidth;
+
+    // 生成する立幅
+    [SerializeField] private int _createHeight;
+
+    [Header("CreateSpacing")]
+    // X座標の生成間隔
+    [SerializeField] private float _xSpacing;
+
+    // Y座標の生成間隔
+    [SerializeField] private float _ySpacing;
+
+    [Header("CreatePosition")]
+    // 最初の生成座標
+    [SerializeField] private Vector3 _startPosition = Vector3.zero;
+
+    [Header("Prefabs")]
+
+    //障子のプレファブ
+    [SerializeField] private ShojiTear _shojiPrefab;
+
+    [SerializeField] private Pattern _pattern;
+
+    public void Start()
+    {
+        InitializeShojis();
+    }
+
+
+    private void Update()
+    {
+        // 全てのパターンをチェック
+        foreach (var it in _pattern.pattern)
+        {
+            if (CheckPattern(it))
+            {
+                Debug.Log("パターン成立");
+            }
+        }
+    }
+
+    /// <summary>
+    /// 障子のしょきか　
+    /// </summary>
+    private void InitializeShojis()
+    {
+        _shojis = new ShojiTear[_createHeight, _createWidth];
+
+        for (int y = 0; y < _createHeight; y++)
+        {
+            for (int x = 0; x < _createWidth; x++)
+            {
+                Vector3 pos = _startPosition + new Vector3(
+                    x * _xSpacing,
+                    y * _ySpacing,
+                    0f
+                );
+
+                var shoji = CreateShoji(pos);
+                _shojis[y, x] = shoji;
+            }
+        }
+    }
+
+    /// <summary>
+    /// 障子の生成
+    /// </summary>
+    /// <param name="createPos">生成座標</param>
+    public ShojiTear CreateShoji(Vector3 createPos)
+    {
+        var createObj = Instantiate(_shojiPrefab, createPos, Quaternion.identity);
+
+        var shoji = createObj.GetComponent<ShojiTear>();
+
+        return shoji;
+    }
+
+    /// <summary>
+    /// パターンのチェック
+    /// </summary>
+    /// <param name="pattern">パターン</param>
+    public bool CheckPattern(bool[,] pattern)
+    {
+
+        int patternHeight = pattern.GetLength(0);
+        int patternWidth = pattern.GetLength(1);
+
+        int shojiHeight = _shojis.GetLength(0);
+        int shojiWidth = _shojis.GetLength(1);
+
+        for (int y = 0; y <= shojiHeight - patternHeight; y++)
+        {
+            for (int x = 0; x <= shojiWidth - patternWidth; x++)
+            {
+                if (IsMatchAt(x, y, pattern))
+                {
+                    BreakPattern(x, y, pattern);
+                    return true;
+                }
+            }
+        }
+
+        return false;
+    }
+
+    /// <summary>
+    /// その場所がパターンと一致しているか調べる
+    /// </summary>
+    /// <param name="startX">開始地点X</param>
+    /// <param name="startY">開始地点Y</param>
+    /// <param name="pattern">パターン</param>
+    /// <returns>探索成功したらtrue</returns>
+    private bool IsMatchAt(int startX, int startY, bool[,] pattern)
+    {
+        int patternHeight = pattern.GetLength(0);
+        int patternWidth = pattern.GetLength(1);
+
+        for (int y = 0; y < patternHeight; y++)
+        {
+            for (int x = 0; x < patternWidth; x++)
+            {
+                if (pattern[y, x])
+                {
+                    if (_shojis[startY + y, startX + x].breakLevel == BreakLevel.NotBreak)
+                        return false;
+                }
+            }
+        }
+        return true;
+    }
+
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="startX">開始地点X</param>
+    /// <param name="startY">開始地点Y</param>
+    /// <param name="pattern">パターン</param>
+    private void BreakPattern(int startX, int startY, bool[,] pattern)
+    {
+        int patternHeight = pattern.GetLength(0);
+        int patternWidth = pattern.GetLength(1);
+
+        for (int y = 0; y < patternHeight; y++)
+        {
+            for (int x = 0; x < patternWidth; x++)
+            {
+                if (pattern[y, x])
+                {
+                    _shojis[startY + y, startX + x].ResetBreak();
+                }
+            }
+        }
+    }
+
+
+};
