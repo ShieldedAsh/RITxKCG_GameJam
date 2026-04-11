@@ -48,10 +48,12 @@ public class PunchAction : MonoBehaviour
                     obj.ClickObject();
                     Debug.Log("点数オブジェクトをヒット");
                 }
+
+                shojiTear.SetBreakLevelTrueBreak();
             }
             else
             {
-
+                shojiTear.SetBreakLevelBreak();
             }
         }
     }
