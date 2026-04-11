@@ -71,11 +71,13 @@ public class ShojiManager : MonoBehaviour
     {
         _shojis = new ShojiTear[_createHeight, _createWidth];
 
+        Vector3 _offsetPos = new Vector3(-_createWidth * 0.5f + 0.5f,-_createHeight * 0.5f + 0.5f, 0);
+
         for (int y = 0; y < _createHeight; y++)
         {
             for (int x = 0; x < _createWidth; x++)
             {
-                Vector3 pos = _startPosition + new Vector3(
+                Vector3 pos = _offsetPos + _startPosition + new Vector3(
                     x * _xSpacing,
                     y * _ySpacing,
                     0f
