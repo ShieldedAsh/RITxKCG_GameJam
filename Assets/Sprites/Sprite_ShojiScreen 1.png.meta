@@ -1,0 +1,1274 @@
+fileFormatVersion: 2
+guid: 41b984b30d2e15b4089c280588e830f6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7875187978704430262
+    second: Sprite_ShojiScreen_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sprite_ShojiScreen 1_0
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 2820
+        width: 650
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980587c12cf7a92439d35a8e4540ac7a
+      internalID: 2051188524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_ShojiScreen 1_1
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 2820
+        width: 650
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c30450d272fa414d8af977b968f36c9
+      internalID: -315011974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_ShojiScreen 1_2
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2820
+        width: 650
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaca452b4b344c7419fa629a64e7f9b7
+      internalID: -2069619287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_ShojiScreen 1_3
+      rect:
+        serializedVersion: 2
+        x: 3050
+        y: 2820
+        width: 650
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba8fc38156bf0746b80b7c0cac5ceab
+      internalID: -1524717626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_ShojiScreen 1_4
+      rect:
+        serializedVersion: 2
+        x: 3700
+        y: 2820
+        width: 650
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7e86c3c8400a44a80fe8d1fa469815
+      internalID: 1062679255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_ShojiScreen 1_5
+      rect:
+        serializedVersion: 2
+        x: 4350
+        y: 2820
+        width: 650
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10fd6aca0fdd6a540ba4536a80b2630b
+      internalID: 1632323037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_ShojiScreen 1_6
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 2820
+        width: 650
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5cb55abed1936d49a62b8875be69030
+      internalID: -781059039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_ShojiScreen 1_7
+      rect:
+        serializedVersion: 2
+        x: 5650
+        y: 2820
+        width: 650
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae2694394bde5164297f7ac59d596dcd
+      internalID: 437252229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_ShojiScreen 1_8
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 2820
+        width: 650
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3c9337e50e0a541ba44743ff4bd894
+      internalID: 1176158233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_ShojiScreen 1_9
+      rect:
+        serializedVersion: 2
+        x: 6950
+        y: 2820
+        width: 650
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f02a9231fe80e149ab98449d3810d5e
+      internalID: 164040744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_ShojiScreen 1_10
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 2240
+        width: 650
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f829dff304778a4babc548841bbc3bd
+      internalID: 2052439664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_ShojiScreen 1_11
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 2240
+        width: 650
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc9a38c3c7688a48aa7e481c3f1d781
+      internalID: 957545675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_ShojiScreen 1_12
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2240
+        width: 650
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0662d17076f47e4b9add61ea8888af0
+      internalID: -1476609897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_ShojiScreen 1_13
+      rect:
+        serializedVersion: 2
+        x: 3050
+        y: 2240
+        width: 650
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42883377de0c6374a8fa57b59146e386
+      internalID: -1784986950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_ShojiScreen 1_14
+      rect:
+        serializedVersion: 2
+        x: 3700
+        y: 2240
+        width: 650
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73694f0d6e3009c40ae136ce78bef71a
+      internalID: 124766418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_ShojiScreen 1_15
+      rect:
+        serializedVersion: 2
+        x: 4350
+        y: 2240
+        width: 650
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5b4660d17ef0d45b89db226a713c85
+      internalID: -1821952832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_ShojiScreen 1_16
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 2240
+        width: 650
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97bedf95302797e42ae5254e19947f9e
+      internalID: -458948915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_ShojiScreen 1_17
+      rect:
+        serializedVersion: 2
+        x: 5650
+        y: 2240
+        width: 650
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e22b3b302684f64b932262ebdae266a
+      internalID: 851400168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_ShojiScreen 1_18
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 2240
+        width: 650
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc6230ca2e6cfe4bb472fd90c944588
+      internalID: -1044801518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_ShojiScreen 1_19
+      rect:
+        serializedVersion: 2
+        x: 6950
+        y: 2240
+        width: 650
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d5ff08717c63a45851227e73c201d0
+      internalID: 861727826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_ShojiScreen 1_20
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1660
+        width: 650
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf04fa25bc0227a4eb6e71b26c477140
+      internalID: -1849008172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_ShojiScreen 1_21
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 1660
+        width: 650
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18cc6fbec421f93438b4d590cd4d1400
+      internalID: -1856661206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_ShojiScreen 1_22
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1660
+        width: 650
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f3c2a4b6cae4b34d96123c945466581
+      internalID: 1460079279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_ShojiScreen 1_23
+      rect:
+        serializedVersion: 2
+        x: 3050
+        y: 1660
+        width: 650
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b6f19ef5fd61c46881afe503ee57b7
+      internalID: -1702462341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_ShojiScreen 1_24
+      rect:
+        serializedVersion: 2
+        x: 3700
+        y: 1660
+        width: 650
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720703e8f26197941b86a331f5b8232d
+      internalID: -1258771282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_ShojiScreen 1_25
+      rect:
+        serializedVersion: 2
+        x: 4350
+        y: 1660
+        width: 650
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff76eab4ee66f2d41919cd8ca02a07fe
+      internalID: -395172926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_ShojiScreen 1_26
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 1660
+        width: 650
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8885aeb6628cc54cbcc2214077813f9
+      internalID: -1813817307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_ShojiScreen 1_27
+      rect:
+        serializedVersion: 2
+        x: 5650
+        y: 1660
+        width: 650
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad716fe3ebdb0834fa26eaec3f7142c5
+      internalID: 1812607620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_ShojiScreen 1_28
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 1660
+        width: 650
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 552dd230ce5ecdd42a906597f80d8f29
+      internalID: -928657680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_ShojiScreen 1_29
+      rect:
+        serializedVersion: 2
+        x: 6950
+        y: 1660
+        width: 650
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3649a08397c54240bb59f5e1d4a1211
+      internalID: -1723419135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_ShojiScreen 1_30
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1080
+        width: 650
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e6036b235775104caede60d8e780234
+      internalID: 334880653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_ShojiScreen 1_31
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 1080
+        width: 650
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d698355280bae4e8c873d8e51f40a3
+      internalID: -637088649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_ShojiScreen 1_32
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1080
+        width: 650
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 706a425e538d81140ae8b0dcc32946b1
+      internalID: 1944239874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_ShojiScreen 1_33
+      rect:
+        serializedVersion: 2
+        x: 3050
+        y: 1080
+        width: 650
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b6690e8f8fc3844833865d81e57be9
+      internalID: 1445363541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_ShojiScreen 1_34
+      rect:
+        serializedVersion: 2
+        x: 3700
+        y: 1080
+        width: 650
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbde18bcda677e443a31d36c1b93a59b
+      internalID: -706470064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_ShojiScreen 1_35
+      rect:
+        serializedVersion: 2
+        x: 4350
+        y: 1080
+        width: 650
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d15fe39f9c3f74199e65aa55749b26
+      internalID: -390927953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_ShojiScreen 1_36
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 1080
+        width: 650
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b35cf07768d4fac41abd2deae05ccc4e
+      internalID: 1648903610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_ShojiScreen 1_37
+      rect:
+        serializedVersion: 2
+        x: 5650
+        y: 1080
+        width: 650
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52ade57e33361f4ea996abc8d776ecd
+      internalID: -516258647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_ShojiScreen 1_38
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 1080
+        width: 650
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 570f23f2d520267429bc729158897566
+      internalID: 417245523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_ShojiScreen 1_39
+      rect:
+        serializedVersion: 2
+        x: 6950
+        y: 1080
+        width: 650
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b482de5e95e024c90f0a0557f31f4f
+      internalID: -1824110159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_ShojiScreen 1_40
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 500
+        width: 650
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7792cbb129c224aa6e3c1105c81697
+      internalID: -573440619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_ShojiScreen 1_41
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 500
+        width: 650
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60cac5bc4381337489207b19f5fbf8e5
+      internalID: 1410880765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_ShojiScreen 1_42
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 500
+        width: 650
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c50dd8e0f1dbc4a8ae45e9be3d7678
+      internalID: -1857384997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_ShojiScreen 1_43
+      rect:
+        serializedVersion: 2
+        x: 3050
+        y: 500
+        width: 650
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe100e7fc6c01b45998df326406dfe3
+      internalID: 488554138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_ShojiScreen 1_44
+      rect:
+        serializedVersion: 2
+        x: 3700
+        y: 500
+        width: 650
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d95c5d0413fabf14f8454b3bef3b437a
+      internalID: -491291259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_ShojiScreen 1_45
+      rect:
+        serializedVersion: 2
+        x: 4350
+        y: 500
+        width: 650
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5f964f4da9c9b4590149b1bf9bc196
+      internalID: 1434012855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_ShojiScreen 1_46
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 500
+        width: 650
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b367d1650c4887f409a3c83d7452ed65
+      internalID: 1156955776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_ShojiScreen 1_47
+      rect:
+        serializedVersion: 2
+        x: 5650
+        y: 500
+        width: 650
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74092ec6657400944b190e5439a3864c
+      internalID: 1270367530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_ShojiScreen 1_48
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 500
+        width: 650
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a28640b1201c98e4086141d1e93c4640
+      internalID: -606013634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_ShojiScreen 1_49
+      rect:
+        serializedVersion: 2
+        x: 6950
+        y: 500
+        width: 650
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f05fc5d54c8e254798a9fdb37c2b82c
+      internalID: 1682934756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4f3e01997e9b6a44b8612c08a12b1f54
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceOnImport
+        value: False
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":650.0,"y":580.0},"gridSpriteOffset":{"x":1100.0,"y":1100.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Sprite_ShojiScreen 1_0: 2051188524
+      Sprite_ShojiScreen 1_1: -315011974
+      Sprite_ShojiScreen 1_10: 2052439664
+      Sprite_ShojiScreen 1_11: 957545675
+      Sprite_ShojiScreen 1_12: -1476609897
+      Sprite_ShojiScreen 1_13: -1784986950
+      Sprite_ShojiScreen 1_14: 124766418
+      Sprite_ShojiScreen 1_15: -1821952832
+      Sprite_ShojiScreen 1_16: -458948915
+      Sprite_ShojiScreen 1_17: 851400168
+      Sprite_ShojiScreen 1_18: -1044801518
+      Sprite_ShojiScreen 1_19: 861727826
+      Sprite_ShojiScreen 1_2: -2069619287
+      Sprite_ShojiScreen 1_20: -1849008172
+      Sprite_ShojiScreen 1_21: -1856661206
+      Sprite_ShojiScreen 1_22: 1460079279
+      Sprite_ShojiScreen 1_23: -1702462341
+      Sprite_ShojiScreen 1_24: -1258771282
+      Sprite_ShojiScreen 1_25: -395172926
+      Sprite_ShojiScreen 1_26: -1813817307
+      Sprite_ShojiScreen 1_27: 1812607620
+      Sprite_ShojiScreen 1_28: -928657680
+      Sprite_ShojiScreen 1_29: -1723419135
+      Sprite_ShojiScreen 1_3: -1524717626
+      Sprite_ShojiScreen 1_30: 334880653
+      Sprite_ShojiScreen 1_31: -637088649
+      Sprite_ShojiScreen 1_32: 1944239874
+      Sprite_ShojiScreen 1_33: 1445363541
+      Sprite_ShojiScreen 1_34: -706470064
+      Sprite_ShojiScreen 1_35: -390927953
+      Sprite_ShojiScreen 1_36: 1648903610
+      Sprite_ShojiScreen 1_37: -516258647
+      Sprite_ShojiScreen 1_38: 417245523
+      Sprite_ShojiScreen 1_39: -1824110159
+      Sprite_ShojiScreen 1_4: 1062679255
+      Sprite_ShojiScreen 1_40: -573440619
+      Sprite_ShojiScreen 1_41: 1410880765
+      Sprite_ShojiScreen 1_42: -1857384997
+      Sprite_ShojiScreen 1_43: 488554138
+      Sprite_ShojiScreen 1_44: -491291259
+      Sprite_ShojiScreen 1_45: 1434012855
+      Sprite_ShojiScreen 1_46: 1156955776
+      Sprite_ShojiScreen 1_47: 1270367530
+      Sprite_ShojiScreen 1_48: -606013634
+      Sprite_ShojiScreen 1_49: 1682934756
+      Sprite_ShojiScreen 1_5: 1632323037
+      Sprite_ShojiScreen 1_6: -781059039
+      Sprite_ShojiScreen 1_7: 437252229
+      Sprite_ShojiScreen 1_8: 1176158233
+      Sprite_ShojiScreen 1_9: 164040744
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

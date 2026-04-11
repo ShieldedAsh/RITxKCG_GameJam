@@ -148,14 +148,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0067046fe5e4a844497147d1c4acb684, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ShojiManager
-  _createWidth: 9
-  _createHeight: 5
+  _createWidth: 10
+  _createHeight: 8
   _xSpacing: 1
   _ySpacing: 1
   _startPosition: {x: -5, y: -4, z: 0}
   _shojiPrefab: {fileID: 6491869188015658585, guid: d4a47d682325ca54b932b967ebf31891, type: 3}
   _pattern: {fileID: 1901365289}
-  sprites: []
 --- !u!4 &330490196
 Transform:
   m_ObjectHideFlags: 0

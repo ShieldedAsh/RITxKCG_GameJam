@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.U2D;
 using static ShojiTear;
 
 public class ShojiManager : MonoBehaviour
@@ -34,8 +35,11 @@ public class ShojiManager : MonoBehaviour
 
     [SerializeField] private Pattern _pattern;
 
+    public Sprite[] sprites;
+
     public void Start()
     {
+        sprites = Resources.LoadAll<Sprite>("Sprite_ShojiScreen");
         InitializeShojis();
     }
 
@@ -68,8 +72,7 @@ public class ShojiManager : MonoBehaviour
                     y * _ySpacing,
                     0f
                 );
-
-                var shoji = CreateShoji(pos);
+                var shoji = CreateShoji(pos, x + (_createHeight - 1 - y) * 10);
                 _shojis[y, x] = shoji;
             }
         }
@@ -79,14 +82,21 @@ public class ShojiManager : MonoBehaviour
     /// 障子の生成
     /// </summary>
     /// <param name="createPos">生成座標</param>
-    public ShojiTear CreateShoji(Vector3 createPos)
+    public ShojiTear CreateShoji(Vector3 createPos, int spriteNum)
     {
         var createObj = Instantiate(_shojiPrefab, createPos, Quaternion.identity);
 
         var shoji = createObj.GetComponent<ShojiTear>();
 
+        // SpriteRenderer を取得
+        var renderer = createObj.GetComponent<SpriteRenderer>();
+
+        // スプライト配列から指定番号のスプライトを設定
+        renderer.sprite = sprites[spriteNum];
+
         return shoji;
     }
+
 
     /// <summary>
     /// パターンのチェック
