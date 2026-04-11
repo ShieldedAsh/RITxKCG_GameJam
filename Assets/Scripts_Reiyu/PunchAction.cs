@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -15,15 +16,42 @@ public class PunchAction : MonoBehaviour
     {
         if (Mouse.current.leftButton.wasPressedThisFrame)
         {
-            Collider2D[] results = Physics2D.OverlapCircleAll(punchCollider.bounds.center, punchCollider.radius);
+            Collider2D[] results = Physics2D.OverlapPointAll(punchCollider.bounds.center);
 
+            //背景のオブジェクトがヒットしているかどうかを判定するためのフラグ
+            bool isBackObjectHit = false;
+            //ヒットした点数オブジェクトのリスト
+            List<ObjectBase> objectBases = new();
+            //ヒットした障子オブジェクト
+            ShojiTear shojiTear = null;
+
+            //ヒットしたオブジェクトの中の障子クラスと点数クラスを取得する
+            //Determine whether there is a score object among the hit objects
             foreach (Collider2D collider in results)
             {
-                if (collider == punchCollider) continue;
+                if (collider.gameObject.transform.TryGetComponent(out ObjectBase obj))
+                {
+                    objectBases.Add(obj);
+                }
+                else if (collider.gameObject.transform.TryGetComponent(out ShojiTear shoji))
+                {
+                    shojiTear = shoji;
+                }
+            }
 
-                Debug.Log("Hit: " + collider.name, this);
-                var renderer = GetComponent<SpriteRenderer>();
-                renderer.color = renderer.color == Color.white ? Color.red : Color.white;
+            if (shojiTear == null) return;
+
+            if (objectBases.Count != 0)
+            {
+                foreach (ObjectBase obj in objectBases)
+                {
+                    obj.ClickObject();
+                    Debug.Log("点数オブジェクトをヒット");
+                }
+            }
+            else
+            {
+
             }
         }
     }
