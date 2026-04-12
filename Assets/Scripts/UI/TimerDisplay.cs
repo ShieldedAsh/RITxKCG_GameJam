@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using TMPro;
 using System;
 
@@ -12,6 +13,11 @@ public class TimerDisplay : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (timer >= 90f)
+        {
+            SceneManager.LoadScene("ResultsScene");
+        }
+        
         timer += Time.deltaTime;
         timerText.text = FormatTime(timer);
     }

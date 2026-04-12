@@ -396,7 +396,7 @@ MonoBehaviour:
   seMenuOpen: {fileID: 633536036}
   bgmTitle: {fileID: 1239404139}
   bgmMainGame: {fileID: 1061410418}
-  bgmResults: {fileID: 0}
+  bgmResults: {fileID: 1453570518}
 --- !u!1 &178252451
 GameObject:
   m_ObjectHideFlags: 0
