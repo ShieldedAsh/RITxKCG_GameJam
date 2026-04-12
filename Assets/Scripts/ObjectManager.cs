@@ -42,17 +42,55 @@ public class ObjectManager : MonoBehaviour
         //choose between good or bad object
         int coinflip = Random.Range(0, 2);
 
+        //choose direction
+        //0 is From Left To Right, 1 is From Right to Left, 2 is From Top to Bottom, 3 is from Bottom to Top
+        int randomDir = Random.Range(0, 4);
+
         switch (coinflip)
         {
             //good object
             case 0:
-                GameObject tempGood = Instantiate(goodObject, new Vector3(-12f, Random.Range(-4, 4), 0f), Quaternion.identity); //spawns a new good obj at a random Y value between (-4, 4)
-                objects.Add(tempGood);
+                switch (randomDir)
+                {
+                    case 0:
+                        GameObject tempGoodLR = Instantiate(goodObject, new Vector3(-4f, Random.Range(-4, 0), 0f), Quaternion.identity); //spawns a new good obj at a random Y value between (-4, 4)
+                        objects.Add(tempGoodLR);
+                        break;
+                    case 1:
+                        GameObject tempGoodRL = Instantiate(goodObject, new Vector3(4f, Random.Range(-4, 0), 0f), Quaternion.identity); //spawns a new good obj at a random Y value between (-4, 4)
+                        objects.Add(tempGoodRL);
+                        break;
+                    case 2:
+                        GameObject tempGoodTB = Instantiate(goodObject, new Vector3(Random.Range(-8, 8), 0f, 0f), Quaternion.identity);
+                        objects.Add(tempGoodTB);
+                        break;
+                    case 3:
+                        GameObject tempGoodBT = Instantiate(goodObject, new Vector3(Random.Range(-8, 8), -5f, 0f), Quaternion.identity);
+                        objects.Add(tempGoodBT);
+                        break;
+                }
                 break;
             //bad object
             case 1:
-                GameObject tempBad = Instantiate(badObject, new Vector3(-12f, Random.Range(-4, 4), 0f), Quaternion.identity); //spawns a new bad obj at a random Y value between (-4, 4)
-                objects.Add(tempBad);
+                switch (randomDir)
+                {
+                    case 0:
+                        GameObject tempBadLR = Instantiate(badObject, new Vector3(-6f, Random.Range(-4, 0), 0f), Quaternion.identity); //spawns a new bad obj at a random Y value between (-4, 4)
+                        objects.Add(tempBadLR);
+                        break;
+                    case 1:
+                        GameObject tempBadRL = Instantiate(badObject, new Vector3(6f, Random.Range(-4, 0), 0f), Quaternion.identity); //spawns a new good obj at a random Y value between (-4, 4)
+                        objects.Add(tempBadRL);
+                        break;
+                    case 2:
+                        GameObject tempBadTB = Instantiate(badObject, new Vector3(Random.Range(-8, 8), 0f, 0f), Quaternion.identity);
+                        objects.Add(tempBadTB);
+                        break;
+                    case 3:
+                        GameObject tempBadBT = Instantiate(badObject, new Vector3(Random.Range(-8, 8), -5f, 0f), Quaternion.identity);
+                        objects.Add(tempBadBT);
+                        break;
+                }
                 break;
         }
     }
