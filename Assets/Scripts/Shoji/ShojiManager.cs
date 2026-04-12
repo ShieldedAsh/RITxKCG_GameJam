@@ -41,7 +41,7 @@ public class ShojiManager : MonoBehaviour
     //障子のプレファブ
     [SerializeField] private ShojiTear _shojiPrefab;
 
-    [SerializeField] private Pattern _pattern;
+    private ShojiPattern _pattern;
 
     public Sprite[] sprites;
 
@@ -49,10 +49,16 @@ public class ShojiManager : MonoBehaviour
     {
         sprites = Resources.LoadAll<Sprite>("Sprite_ShojiScreen");
         InitializeShojis();
+        _pattern = new ShojiPattern();
+        _pattern.InitializePatterns();
     }
 
 
     private void Update()
+    {
+        Check();
+    }
+    public void Check()
     {
         // 全てのパターンをチェック
         foreach (var it in _pattern.pattern)
