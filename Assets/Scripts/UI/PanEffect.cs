@@ -7,11 +7,6 @@ public class PanEffect : MonoBehaviour
     public Vector3 panAmount = new Vector3(0.5f, 0.5f, 0f); // max offset
     public float panSpeed = 1f; // how fast it moves
 
-    [Header("Flicker Settings (optional)")]
-    public bool enableFlicker = false;
-    public float flickerSpeed = 5f;
-    public float minAlpha = 0.5f;
-
     private Vector3 startPos;
 
     // Components for flicker
@@ -50,16 +45,6 @@ public class PanEffect : MonoBehaviour
             ((RectTransform)transform).anchoredPosition = newPos;
         else
             transform.position = newPos;
-
-        // --- Flicker effect ---
-        if (enableFlicker)
-        {
-            float alpha = Mathf.Lerp(minAlpha, 1f, Mathf.PerlinNoise(t * flickerSpeed, 1f));
-            if (isUI && uiImage != null)
-                uiImage.color = new Color(uiImage.color.r, uiImage.color.g, uiImage.color.b, alpha);
-            else if (spriteRenderer != null)
-                spriteRenderer.color = new Color(spriteRenderer.color.r, spriteRenderer.color.g, spriteRenderer.color.b, alpha);
-        }
     }
 
 }
