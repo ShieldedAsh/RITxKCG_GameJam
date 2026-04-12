@@ -40,6 +40,7 @@ public class ShojiTear : MonoBehaviour
     /// </summary>
     private void OnMouseDown()
     {
+        AudioManager.Instance.SeHittingShojiScreen.Play();
         breakLevel = BreakLevel.TrueBreak;
     }
 
