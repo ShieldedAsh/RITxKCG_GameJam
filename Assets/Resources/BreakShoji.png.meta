@@ -113,1204 +113,16 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: punched-holes 1_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 2970
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 17756a326d06f954392557a1b03a8382
-      internalID: -1898331705
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: punched-holes 1_1
-      rect:
-        serializedVersion: 2
-        x: 654
-        y: 2970
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 85b247d3fa02aa243a5bfeeebf38f743
-      internalID: 944577747
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: punched-holes 1_2
-      rect:
-        serializedVersion: 2
-        x: 1308
-        y: 2970
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6daea383286c4064e94a19bf9f8e3376
-      internalID: -1650541965
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: punched-holes 1_3
-      rect:
-        serializedVersion: 2
-        x: 1962
-        y: 2970
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 27e8fa9a197a29c489d9f5acb2f7811b
-      internalID: -1796598928
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: punched-holes 1_4
-      rect:
-        serializedVersion: 2
-        x: 2616
-        y: 2970
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4d9d7b953f9378d41ab24f5c1d3df44d
-      internalID: -1209858253
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: punched-holes 1_5
-      rect:
-        serializedVersion: 2
-        x: 3270
-        y: 2970
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7b4f30999bb3e144893161dae56514a5
-      internalID: -462119820
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: punched-holes 1_6
-      rect:
-        serializedVersion: 2
-        x: 3924
-        y: 2970
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 12a96829b2cf9de479a6f9f5cc8825df
-      internalID: 470633545
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: punched-holes 1_7
-      rect:
-        serializedVersion: 2
-        x: 4578
-        y: 2970
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 91ed5d64af332184daa0294c09010129
-      internalID: 305579030
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: punched-holes 1_8
-      rect:
-        serializedVersion: 2
-        x: 5232
-        y: 2970
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bfbe6eac33add7d4cbd972e7ffb5fee3
-      internalID: -213288609
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: punched-holes 1_9
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 2376
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d76987408b0c89b4680ece0cf2ce1672
-      internalID: -89600704
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: punched-holes 1_10
-      rect:
-        serializedVersion: 2
-        x: 654
-        y: 2376
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e19c8c160ddb6d5469d2dbb38f922e2d
-      internalID: -1795994160
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: punched-holes 1_11
-      rect:
-        serializedVersion: 2
-        x: 1308
-        y: 2376
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d1cc01aaa9994e144bda85556721fe7d
-      internalID: -435127199
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: punched-holes 1_12
-      rect:
-        serializedVersion: 2
-        x: 1962
-        y: 2376
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 193ee2c36b2da4e40a13e4033577f921
-      internalID: -1058422064
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: punched-holes 1_13
-      rect:
-        serializedVersion: 2
-        x: 2616
-        y: 2376
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7231aa51e0475c443b6883861e85e98c
-      internalID: -432123333
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: punched-holes 1_14
-      rect:
-        serializedVersion: 2
-        x: 3270
-        y: 2376
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d2798ccb3830ef247988f1c91ffa5e56
-      internalID: 671612704
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: punched-holes 1_15
-      rect:
-        serializedVersion: 2
-        x: 3924
-        y: 2376
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b951f6e0bcb29b649b35542834cd29e9
-      internalID: -1836056870
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: punched-holes 1_16
-      rect:
-        serializedVersion: 2
-        x: 4578
-        y: 2376
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bf41de7d8dfd1a74d9ec3f4b7657f69d
-      internalID: -211356151
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: punched-holes 1_17
-      rect:
-        serializedVersion: 2
-        x: 5232
-        y: 2376
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2d109e2a6948c7c49b74b7cf328971e7
-      internalID: -1340244846
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: punched-holes 1_18
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1782
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5a12ac656b0d91d4eb8ad3f568e63f8d
-      internalID: -1822663849
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: punched-holes 1_19
-      rect:
-        serializedVersion: 2
-        x: 654
-        y: 1782
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aacc79c871d155a489306bb95ffc8a04
-      internalID: 1687803744
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: punched-holes 1_20
-      rect:
-        serializedVersion: 2
-        x: 1308
-        y: 1782
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4f59632a0f8e4074b9fde2153f77e44c
-      internalID: -1249267488
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: punched-holes 1_21
-      rect:
-        serializedVersion: 2
-        x: 1962
-        y: 1782
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aff0d9e4179729f40bc5fe26ef9f9258
-      internalID: 976953237
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: punched-holes 1_22
-      rect:
-        serializedVersion: 2
-        x: 2616
-        y: 1782
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 26db6a8599bcfa04b9c258efc3278009
-      internalID: 1721924944
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: punched-holes 1_23
-      rect:
-        serializedVersion: 2
-        x: 3270
-        y: 1782
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0590d3a183840ee429e31a9dd4938190
-      internalID: -427401569
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: punched-holes 1_24
-      rect:
-        serializedVersion: 2
-        x: 3924
-        y: 1782
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ffea92dbe52cb694086a4cc46c3ec5ff
-      internalID: 161542387
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: punched-holes 1_25
-      rect:
-        serializedVersion: 2
-        x: 4578
-        y: 1782
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 094d9f56ec81ad14b8097c4e6e2a2764
-      internalID: 1205488719
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: punched-holes 1_26
-      rect:
-        serializedVersion: 2
-        x: 5232
-        y: 1782
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: accff4a3fc32f2f4585de0686fbd0c33
-      internalID: 997910218
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: punched-holes 1_27
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1188
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8be89296c17052f46b90b422a78604cf
-      internalID: 1185802400
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: punched-holes 1_28
-      rect:
-        serializedVersion: 2
-        x: 654
-        y: 1188
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a7a1d23fbf7b18b408bf4feba54107e6
-      internalID: 112271979
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: punched-holes 1_29
-      rect:
-        serializedVersion: 2
-        x: 1308
-        y: 1188
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a058423a1be7819418b62745f20da88a
-      internalID: 377851569
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: punched-holes 1_30
-      rect:
-        serializedVersion: 2
-        x: 1962
-        y: 1188
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a35da51cd8c4ac34bb5f640efd4015b2
-      internalID: -402403721
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: punched-holes 1_31
-      rect:
-        serializedVersion: 2
-        x: 2616
-        y: 1188
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dd9f0c897dd05914f8c6399f4627d54d
-      internalID: 690186401
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: punched-holes 1_32
-      rect:
-        serializedVersion: 2
-        x: 3270
-        y: 1188
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 184d7cf8e1a1fa0438a2a2d29c6ad64a
-      internalID: 699855277
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: punched-holes 1_33
-      rect:
-        serializedVersion: 2
-        x: 3924
-        y: 1188
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 548d2c5c223d5de4a8dd387a5e0d68cf
-      internalID: 919251980
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: punched-holes 1_34
-      rect:
-        serializedVersion: 2
-        x: 4578
-        y: 1188
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 567a46183656c90468446b9ec1d860fa
-      internalID: 47027632
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: punched-holes 1_35
-      rect:
-        serializedVersion: 2
-        x: 5232
-        y: 1188
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 62e6073caa9e80047a7ab1c83f342c4d
-      internalID: -852795452
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: punched-holes 1_36
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 594
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4274a6725664d034698816b297d2cc2b
-      internalID: 25321238
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: punched-holes 1_37
-      rect:
-        serializedVersion: 2
-        x: 654
-        y: 594
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 874a44e37f4517a4e96782a2c1ff9be5
-      internalID: -808593531
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: punched-holes 1_38
-      rect:
-        serializedVersion: 2
-        x: 1308
-        y: 594
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 830d7970a66fba7478f75a6df4829acc
-      internalID: -1541271066
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: punched-holes 1_39
-      rect:
-        serializedVersion: 2
-        x: 1962
-        y: 594
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8c5f40416f32abc44ac89f5ca45d502e
-      internalID: 631343920
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: punched-holes 1_40
-      rect:
-        serializedVersion: 2
-        x: 2616
-        y: 594
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c6bbdaee1dc667348b72e584860d10cc
-      internalID: -72574251
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: punched-holes 1_41
-      rect:
-        serializedVersion: 2
-        x: 3270
-        y: 594
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8dbd59cdc2a9fab4481623b76f335a7c
-      internalID: -2073272650
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: punched-holes 1_42
-      rect:
-        serializedVersion: 2
-        x: 3924
-        y: 594
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 797561dea723b9940931ce3b890ffde3
-      internalID: -482954319
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: punched-holes 1_43
-      rect:
-        serializedVersion: 2
-        x: 4578
-        y: 594
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aa0a2154e6c7f064f9c17c53dd198174
-      internalID: -2000627526
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: punched-holes 1_44
-      rect:
-        serializedVersion: 2
-        x: 5232
-        y: 594
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 148f7cadf00436f40acdc07b45ecee98
-      internalID: -236642458
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: punched-holes 1_45
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4edd661c251e8254780ea57b6d190002
-      internalID: 556904355
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: punched-holes 1_46
-      rect:
-        serializedVersion: 2
-        x: 654
-        y: 0
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f960c1f642429444ba131b594bf84702
-      internalID: -534095532
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: punched-holes 1_47
-      rect:
-        serializedVersion: 2
-        x: 1308
-        y: 0
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 82807255c081eca4d8fce5aa403c931c
-      internalID: 1113745121
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: punched-holes 1_48
-      rect:
-        serializedVersion: 2
-        x: 1962
-        y: 0
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 25ac09adc4532264fa2ba831f795330a
-      internalID: 1803739506
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: punched-holes 1_49
-      rect:
-        serializedVersion: 2
-        x: 2616
-        y: 0
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1704de9a4b04dc94e8b65dade46ce18f
-      internalID: -79235215
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: punched-holes 1_50
-      rect:
-        serializedVersion: 2
-        x: 3270
-        y: 0
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b10e5977c6084aa4586b50dd4b88d896
-      internalID: -1256181922
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: punched-holes 1_51
-      rect:
-        serializedVersion: 2
-        x: 3924
-        y: 0
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c31c9df163725ac459422d0454de1c57
-      internalID: -1910480642
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: punched-holes 1_52
-      rect:
-        serializedVersion: 2
-        x: 4578
-        y: 0
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 713b22cd1f857cc4899c75c53d109908
-      internalID: 1645570641
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: punched-holes 1_53
-      rect:
-        serializedVersion: 2
-        x: 5232
-        y: 0
-        width: 654
-        height: 594
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7ee803ae658bcf44d8fd931864d456ea
-      internalID: -1501737998
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: BreakShoji_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 5886
-        height: 3564
+        y: 2970
+        width: 654
+        height: 594
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 17, y: 26, z: 36, w: 20}
+      border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
@@ -1326,12 +138,12 @@ TextureImporter:
       name: BreakShoji_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 5886
-        height: 3564
+        x: 654
+        y: 2970
+        width: 654
+        height: 594
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1348,13 +160,13 @@ TextureImporter:
       name: BreakShoji_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 5850
-        height: 3564
+        x: 1308
+        y: 2970
+        width: 654
+        height: 594
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 17, y: 26, z: 0, w: 20}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
@@ -1362,6 +174,1128 @@ TextureImporter:
       bones: []
       spriteID: 1c520f5e68d9f7b4ea38734357d890fe
       internalID: -176744680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakShoji_3
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 2970
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a051da8af7a506e4a9993fe9afbfc8d3
+      internalID: 905842333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakShoji_4
+      rect:
+        serializedVersion: 2
+        x: 2616
+        y: 2970
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c38f8d29ad24949b1774f40d6c2ca3
+      internalID: -905467230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakShoji_5
+      rect:
+        serializedVersion: 2
+        x: 3270
+        y: 2970
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597db4aba042dfb4e9e9e87636727ed2
+      internalID: -939299154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakShoji_6
+      rect:
+        serializedVersion: 2
+        x: 3924
+        y: 2970
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 419effa0d0fdbd54db41396250976be5
+      internalID: 1518276269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakShoji_7
+      rect:
+        serializedVersion: 2
+        x: 4578
+        y: 2970
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb93cb9ca57b32459a3476fd29e4b71
+      internalID: 1091140937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakShoji_8
+      rect:
+        serializedVersion: 2
+        x: 5232
+        y: 2970
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 190a0de45cbd0884398e83caf2214439
+      internalID: -1632545024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakShoji_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2376
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e38a747008c214fb092ab97e60ef90
+      internalID: -1172375104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakShoji_10
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 2376
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe0cc2edfbd1d134bb1610c7db900b63
+      internalID: 879720918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakShoji_11
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 2376
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea6eefa2ef739c9419a74fc1adc996a4
+      internalID: 1642336671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakShoji_12
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 2376
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d9348db979bfa4fb9262e55219cc04
+      internalID: 1948934182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakShoji_13
+      rect:
+        serializedVersion: 2
+        x: 2616
+        y: 2376
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98130efcb64a4d142ab529684f04fa42
+      internalID: -953390304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakShoji_14
+      rect:
+        serializedVersion: 2
+        x: 3270
+        y: 2376
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b0118b82845f942b6d683f7a5ea62d
+      internalID: -1858950262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakShoji_15
+      rect:
+        serializedVersion: 2
+        x: 3924
+        y: 2376
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd47d63bfa612248ae4c3be941026e0
+      internalID: -901552844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakShoji_16
+      rect:
+        serializedVersion: 2
+        x: 4578
+        y: 2376
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 340a6535c7eac2f45a700bd1644556b0
+      internalID: -188724748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakShoji_17
+      rect:
+        serializedVersion: 2
+        x: 5232
+        y: 2376
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b769ffd238c964a924656089a4de67
+      internalID: -2040702005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakShoji_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1782
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8821ac7d50d63524c92414b49f8ae5bd
+      internalID: -377733528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakShoji_19
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 1782
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b59c3763bc00b4aa59375e5b5401ff
+      internalID: -482059550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakShoji_20
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 1782
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc93e77bc66dcd4988861d74b619b66
+      internalID: -1722301220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakShoji_21
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 1782
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02304b5ee510a1441b45d89f97d7e1f7
+      internalID: 2050450834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakShoji_22
+      rect:
+        serializedVersion: 2
+        x: 2616
+        y: 1782
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 837887c46bca92b4f9c559e0040acefe
+      internalID: 1481580725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakShoji_23
+      rect:
+        serializedVersion: 2
+        x: 3270
+        y: 1782
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c7e160280b4fd44bbfcbdd9d606d16
+      internalID: -604506811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakShoji_24
+      rect:
+        serializedVersion: 2
+        x: 3924
+        y: 1782
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243aeed0dc9a1bb41a34ecff1db44435
+      internalID: -1018641197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakShoji_25
+      rect:
+        serializedVersion: 2
+        x: 4578
+        y: 1782
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e87f21874905c48817d5a2afc79f67
+      internalID: -1401077706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakShoji_26
+      rect:
+        serializedVersion: 2
+        x: 5232
+        y: 1782
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed312ce76704faa43933cfe308e34006
+      internalID: 2140584071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakShoji_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1188
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fdd28f811aa46f419ee8463cb3a5863
+      internalID: 292346331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakShoji_28
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 1188
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cfa22c87644dce46bdc98127ddf0ce8
+      internalID: -1601138459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakShoji_29
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 1188
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae0be536b088f8c4488b653a259db3f5
+      internalID: 287681103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakShoji_30
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 1188
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dee961624df72940887cd788a4c83cd
+      internalID: -877831049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakShoji_31
+      rect:
+        serializedVersion: 2
+        x: 2616
+        y: 1188
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 705736cb248bf7249b9ee4ac9a57e736
+      internalID: 937486949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakShoji_32
+      rect:
+        serializedVersion: 2
+        x: 3270
+        y: 1188
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdb70ed6a646f334fb63bb0d8dcac240
+      internalID: 929022245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakShoji_33
+      rect:
+        serializedVersion: 2
+        x: 3924
+        y: 1188
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2d4ddfa638ce942a91a4129964a980
+      internalID: -912582691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakShoji_34
+      rect:
+        serializedVersion: 2
+        x: 4578
+        y: 1188
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 176ade0226c44214d913afaed28c834e
+      internalID: 1406731355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakShoji_35
+      rect:
+        serializedVersion: 2
+        x: 5232
+        y: 1188
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec05ee2abc3e14f47be04ead0163e99b
+      internalID: -963737914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakShoji_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 594
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff8c7a932fc14df4380c860f11fb67a6
+      internalID: 2117989415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakShoji_37
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 594
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c9ad24f7f3544b4ab4755183ba451ed
+      internalID: -456733408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakShoji_38
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 594
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e37532b233d11448a47a6b2e36e8dd8
+      internalID: 2048012667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakShoji_39
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 594
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25c71ade203f354182cb6c55f445234
+      internalID: -157059572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakShoji_40
+      rect:
+        serializedVersion: 2
+        x: 2616
+        y: 594
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab5549d53a9e11441a48008980df16da
+      internalID: -1953413500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakShoji_41
+      rect:
+        serializedVersion: 2
+        x: 3270
+        y: 594
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2ce4849991fdc429e4c2b3468df2fc
+      internalID: -178738355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakShoji_42
+      rect:
+        serializedVersion: 2
+        x: 3924
+        y: 594
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e63f015d6102240af64f859071df02
+      internalID: -1765320891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakShoji_43
+      rect:
+        serializedVersion: 2
+        x: 4578
+        y: 594
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7b005e6aae36a42bea1984d1ec141a
+      internalID: 1086911517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakShoji_44
+      rect:
+        serializedVersion: 2
+        x: 5232
+        y: 594
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9f4a3fe6fa1ac45b92291036229117
+      internalID: -975951731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakShoji_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d45134897ffaf946999aa99a389aeb2
+      internalID: 1329919804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakShoji_46
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 0
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e4b290319fbf44787d4e4a2449758a
+      internalID: 1776958378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakShoji_47
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 0
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 392c4a43a0593154abd7eb71f62d6ddc
+      internalID: 1305295720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakShoji_48
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 0
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe253a726538954b88fa6d9d099c386
+      internalID: -1591756758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakShoji_49
+      rect:
+        serializedVersion: 2
+        x: 2616
+        y: 0
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf2400c729cf38e4fa171d404593831d
+      internalID: 1331136385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakShoji_50
+      rect:
+        serializedVersion: 2
+        x: 3270
+        y: 0
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b04b95fd3030a84f98644ab17b3f9c5
+      internalID: 1968192483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakShoji_51
+      rect:
+        serializedVersion: 2
+        x: 3924
+        y: 0
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5750616dc355ee24d9cc4363a07b880a
+      internalID: -1281559698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakShoji_52
+      rect:
+        serializedVersion: 2
+        x: 4578
+        y: 0
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6002485940ffd254c9d3a8bf182687bd
+      internalID: 361986119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BreakShoji_53
+      rect:
+        serializedVersion: 2
+        x: 5232
+        y: 0
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e9ae53c020e30e4b9b489b8ab7633ac
+      internalID: 1968802853
       vertices: []
       indices: 
       edges: []
@@ -1384,61 +1318,58 @@ TextureImporter:
     nameFileIdTable:
       BreakShoji_0: 1366764384
       BreakShoji_1: -165757344
+      BreakShoji_10: 879720918
+      BreakShoji_11: 1642336671
+      BreakShoji_12: 1948934182
+      BreakShoji_13: -953390304
+      BreakShoji_14: -1858950262
+      BreakShoji_15: -901552844
+      BreakShoji_16: -188724748
+      BreakShoji_17: -2040702005
+      BreakShoji_18: -377733528
+      BreakShoji_19: -482059550
       BreakShoji_2: -176744680
-      punched-holes 1_0: -1898331705
-      punched-holes 1_1: 944577747
-      punched-holes 1_10: -1795994160
-      punched-holes 1_11: -435127199
-      punched-holes 1_12: -1058422064
-      punched-holes 1_13: -432123333
-      punched-holes 1_14: 671612704
-      punched-holes 1_15: -1836056870
-      punched-holes 1_16: -211356151
-      punched-holes 1_17: -1340244846
-      punched-holes 1_18: -1822663849
-      punched-holes 1_19: 1687803744
-      punched-holes 1_2: -1650541965
-      punched-holes 1_20: -1249267488
-      punched-holes 1_21: 976953237
-      punched-holes 1_22: 1721924944
-      punched-holes 1_23: -427401569
-      punched-holes 1_24: 161542387
-      punched-holes 1_25: 1205488719
-      punched-holes 1_26: 997910218
-      punched-holes 1_27: 1185802400
-      punched-holes 1_28: 112271979
-      punched-holes 1_29: 377851569
-      punched-holes 1_3: -1796598928
-      punched-holes 1_30: -402403721
-      punched-holes 1_31: 690186401
-      punched-holes 1_32: 699855277
-      punched-holes 1_33: 919251980
-      punched-holes 1_34: 47027632
-      punched-holes 1_35: -852795452
-      punched-holes 1_36: 25321238
-      punched-holes 1_37: -808593531
-      punched-holes 1_38: -1541271066
-      punched-holes 1_39: 631343920
-      punched-holes 1_4: -1209858253
-      punched-holes 1_40: -72574251
-      punched-holes 1_41: -2073272650
-      punched-holes 1_42: -482954319
-      punched-holes 1_43: -2000627526
-      punched-holes 1_44: -236642458
-      punched-holes 1_45: 556904355
-      punched-holes 1_46: -534095532
-      punched-holes 1_47: 1113745121
-      punched-holes 1_48: 1803739506
-      punched-holes 1_49: -79235215
-      punched-holes 1_5: -462119820
-      punched-holes 1_50: -1256181922
-      punched-holes 1_51: -1910480642
-      punched-holes 1_52: 1645570641
-      punched-holes 1_53: -1501737998
-      punched-holes 1_6: 470633545
-      punched-holes 1_7: 305579030
-      punched-holes 1_8: -213288609
-      punched-holes 1_9: -89600704
+      BreakShoji_20: -1722301220
+      BreakShoji_21: 2050450834
+      BreakShoji_22: 1481580725
+      BreakShoji_23: -604506811
+      BreakShoji_24: -1018641197
+      BreakShoji_25: -1401077706
+      BreakShoji_26: 2140584071
+      BreakShoji_27: 292346331
+      BreakShoji_28: -1601138459
+      BreakShoji_29: 287681103
+      BreakShoji_3: 905842333
+      BreakShoji_30: -877831049
+      BreakShoji_31: 937486949
+      BreakShoji_32: 929022245
+      BreakShoji_33: -912582691
+      BreakShoji_34: 1406731355
+      BreakShoji_35: -963737914
+      BreakShoji_36: 2117989415
+      BreakShoji_37: -456733408
+      BreakShoji_38: 2048012667
+      BreakShoji_39: -157059572
+      BreakShoji_4: -905467230
+      BreakShoji_40: -1953413500
+      BreakShoji_41: -178738355
+      BreakShoji_42: -1765320891
+      BreakShoji_43: 1086911517
+      BreakShoji_44: -975951731
+      BreakShoji_45: 1329919804
+      BreakShoji_46: 1776958378
+      BreakShoji_47: 1305295720
+      BreakShoji_48: -1591756758
+      BreakShoji_49: 1331136385
+      BreakShoji_5: -939299154
+      BreakShoji_50: 1968192483
+      BreakShoji_51: -1281559698
+      BreakShoji_52: 361986119
+      BreakShoji_53: 1968802853
+      BreakShoji_6: 1518276269
+      BreakShoji_7: 1091140937
+      BreakShoji_8: -1632545024
+      BreakShoji_9: -1172375104
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
