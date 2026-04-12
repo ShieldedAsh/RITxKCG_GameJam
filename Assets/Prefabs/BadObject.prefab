@@ -103,8 +103,8 @@ GameObject:
   - component: {fileID: 3486758231862549013}
   - component: {fileID: 3213029189369041515}
   - component: {fileID: 1631494445103943166}
-  - component: {fileID: 6824082217551732200}
   - component: {fileID: 781001803034274956}
+  - component: {fileID: -6878977509202107836}
   m_Layer: 0
   m_Name: BadObject
   m_TagString: bad
@@ -260,21 +260,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &6824082217551732200
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7994341335749570228}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b729e8d76d7b98a4796cf850c1d91e3b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObjectMover
-  rb: {fileID: 3213029189369041515}
-  despawnThreshold: 20
-  movementSpeed: 3
 --- !u!114 &781001803034274956
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -288,3 +273,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BadObject
   objScore: -1000
+--- !u!114 &-6878977509202107836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7994341335749570228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b729e8d76d7b98a4796cf850c1d91e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectMover
+  rb: {fileID: 3213029189369041515}
+  despawnThresholdLR: 4
+  despawnThresholdRL: -4
+  despawnThresholdTB: -5
+  despawnThresholdBT: 0
+  movementSpeed: 3
