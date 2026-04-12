@@ -176,7 +176,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Japaneze
+  m_text: "\u65E5\u672C\u8A9E"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0bbd9001075b0c949b86543268d3dbc0, type: 2}
   m_sharedMaterial: {fileID: -240543862888145769, guid: 0bbd9001075b0c949b86543268d3dbc0, type: 2}
@@ -4040,6 +4040,7 @@ MonoBehaviour:
   seMenuOpen: {fileID: 1396324098}
   bgmTitle: {fileID: 1594731245}
   bgmMainGame: {fileID: 1478832086}
+  bgmResults: {fileID: 0}
 --- !u!1 &1594731243
 GameObject:
   m_ObjectHideFlags: 0
