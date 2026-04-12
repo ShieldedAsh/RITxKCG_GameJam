@@ -36,15 +36,6 @@ public class ShojiTear : MonoBehaviour
     }
 
     /// <summary>
-    /// クリックされた時に実行
-    /// </summary>
-    private void OnMouseDown()
-    {
-        AudioManager.Instance.SeHittingShojiScreen.Play();
-        breakLevel = BreakLevel.TrueBreak;
-    }
-
-    /// <summary>
     /// 破壊されてからのカウントを進める
     /// </summary>
     private void AddSinceBreakCount()
