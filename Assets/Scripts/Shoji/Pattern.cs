@@ -41,9 +41,9 @@ public class ShojiPattern
 
 
         pattern.Add(new bool[,]{
-  @    { true, true, true },
+        { true, true, true },
         { true, false, false },
-    @  { true, false, false }
+        { true, false, false }
         });
 
         pattern.Add(new bool[,]{
