@@ -49,11 +49,11 @@ public class ObjectMover : MonoBehaviour
             Destroy(this.gameObject);
         }
         
-        if (transform.position.x <= -3.5f)
+        if (transform.position.x <= -3.25f)
         {
             moveDir = Movement.LeftRight;
         }
-        else if (transform.position.x >= 3.5f)
+        else if (transform.position.x >= 3.25f)
         {
             moveDir = Movement.RightLeft;
         }
