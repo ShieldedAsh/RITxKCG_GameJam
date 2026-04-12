@@ -148,8 +148,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 103f52ac07c20b140be8f6a942383118, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectManager
-  badObject: {fileID: 7994341335749570228, guid: 5a90c2803f39c004c82ea945905fbf17, type: 3}
-  goodObject: {fileID: 1197996168528884284, guid: 2a691c6d93607ec4583e5f0a3b09be94, type: 3}
+  badObject:
+  - {fileID: 7994341335749570228, guid: 73a19159f22774a4c8cf285a67298c24, type: 3}
+  - {fileID: 7994341335749570228, guid: d67df3d86cd3c0948a7307208b17fe0b, type: 3}
+  - {fileID: 7994341335749570228, guid: a3451904c87059a45851bb15475c2d1a, type: 3}
+  goodObject:
+  - {fileID: 1197996168528884284, guid: 5949d60ef9a279f49a6ab6bfc8528d36, type: 3}
+  - {fileID: 1197996168528884284, guid: 3b3a713641db9364b8d3816b933a8514, type: 3}
+  - {fileID: 1197996168528884284, guid: 895226da038bae74597566b0ded82442, type: 3}
+  - {fileID: 1197996168528884284, guid: 8224d9cd80183664ba9cc8a58957678c, type: 3}
+  - {fileID: 1197996168528884284, guid: b9744260f524c7c49b367d76f4f95cc4, type: 3}
+  - {fileID: 1197996168528884284, guid: 1c5fd94d46d67f04cb7b17e797639079, type: 3}
+  - {fileID: 1197996168528884284, guid: 3ab58a6ee4ffcbb4ea5d8cce5cb61e19, type: 3}
 --- !u!4 &149425456
 Transform:
   m_ObjectHideFlags: 0
@@ -2422,7 +2432,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -45.549988}
+  m_AnchoredPosition: {x: 0, y: -45.55005}
   m_SizeDelta: {x: 246.65, y: 81.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2124550369
