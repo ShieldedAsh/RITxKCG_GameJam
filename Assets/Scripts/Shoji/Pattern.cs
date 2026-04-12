@@ -114,5 +114,34 @@ public class ShojiPattern
         { false, false, true,  false, false, false, false }
         });
 
+        // Šç4x4
+
+        pattern.Add(new bool[,]{
+        { true,  false, false, true  },
+        { true,  false, false, true  },
+        { false, false, false, false },
+        { true,  true,  true,  true  }
+        });
+
+        pattern.Add(new bool[,]{
+        { true,  true,  false,  true  },
+        { false, false, false, true  },
+        { false, false, false, true  },
+        { true,  true,  false,  true  }
+        });
+
+        pattern.Add(new bool[,]{
+        { true,  true,  true,  true  },
+        { false, false, false, false },
+        { true,  false, false, true  },
+        { true,  false, false, true  }});
+
+        pattern.Add(new bool[,]{
+        { true,  false,  true,  true  },
+        { true,  false, false, false },
+        { true,  false, false, false },
+        { true,  false,  true,  true  }
+        });
+
     }
 }

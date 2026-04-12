@@ -1,0 +1,1364 @@
+fileFormatVersion: 2
+guid: 4ae0681c976298847b0752dc422d29a3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3555357356970306706
+    second: punched-holes_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: punched-holes 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2970
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17756a326d06f954392557a1b03a8382
+      internalID: -1898331705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punched-holes 1_1
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 2970
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b247d3fa02aa243a5bfeeebf38f743
+      internalID: 944577747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punched-holes 1_2
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 2970
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6daea383286c4064e94a19bf9f8e3376
+      internalID: -1650541965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punched-holes 1_3
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 2970
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27e8fa9a197a29c489d9f5acb2f7811b
+      internalID: -1796598928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punched-holes 1_4
+      rect:
+        serializedVersion: 2
+        x: 2616
+        y: 2970
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d9d7b953f9378d41ab24f5c1d3df44d
+      internalID: -1209858253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punched-holes 1_5
+      rect:
+        serializedVersion: 2
+        x: 3270
+        y: 2970
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b4f30999bb3e144893161dae56514a5
+      internalID: -462119820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punched-holes 1_6
+      rect:
+        serializedVersion: 2
+        x: 3924
+        y: 2970
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a96829b2cf9de479a6f9f5cc8825df
+      internalID: 470633545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punched-holes 1_7
+      rect:
+        serializedVersion: 2
+        x: 4578
+        y: 2970
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ed5d64af332184daa0294c09010129
+      internalID: 305579030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punched-holes 1_8
+      rect:
+        serializedVersion: 2
+        x: 5232
+        y: 2970
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfbe6eac33add7d4cbd972e7ffb5fee3
+      internalID: -213288609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punched-holes 1_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2376
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d76987408b0c89b4680ece0cf2ce1672
+      internalID: -89600704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punched-holes 1_10
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 2376
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e19c8c160ddb6d5469d2dbb38f922e2d
+      internalID: -1795994160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punched-holes 1_11
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 2376
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1cc01aaa9994e144bda85556721fe7d
+      internalID: -435127199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punched-holes 1_12
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 2376
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193ee2c36b2da4e40a13e4033577f921
+      internalID: -1058422064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punched-holes 1_13
+      rect:
+        serializedVersion: 2
+        x: 2616
+        y: 2376
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7231aa51e0475c443b6883861e85e98c
+      internalID: -432123333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punched-holes 1_14
+      rect:
+        serializedVersion: 2
+        x: 3270
+        y: 2376
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2798ccb3830ef247988f1c91ffa5e56
+      internalID: 671612704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punched-holes 1_15
+      rect:
+        serializedVersion: 2
+        x: 3924
+        y: 2376
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b951f6e0bcb29b649b35542834cd29e9
+      internalID: -1836056870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punched-holes 1_16
+      rect:
+        serializedVersion: 2
+        x: 4578
+        y: 2376
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf41de7d8dfd1a74d9ec3f4b7657f69d
+      internalID: -211356151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punched-holes 1_17
+      rect:
+        serializedVersion: 2
+        x: 5232
+        y: 2376
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d109e2a6948c7c49b74b7cf328971e7
+      internalID: -1340244846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punched-holes 1_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1782
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a12ac656b0d91d4eb8ad3f568e63f8d
+      internalID: -1822663849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punched-holes 1_19
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 1782
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aacc79c871d155a489306bb95ffc8a04
+      internalID: 1687803744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punched-holes 1_20
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 1782
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f59632a0f8e4074b9fde2153f77e44c
+      internalID: -1249267488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punched-holes 1_21
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 1782
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff0d9e4179729f40bc5fe26ef9f9258
+      internalID: 976953237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punched-holes 1_22
+      rect:
+        serializedVersion: 2
+        x: 2616
+        y: 1782
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26db6a8599bcfa04b9c258efc3278009
+      internalID: 1721924944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punched-holes 1_23
+      rect:
+        serializedVersion: 2
+        x: 3270
+        y: 1782
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0590d3a183840ee429e31a9dd4938190
+      internalID: -427401569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punched-holes 1_24
+      rect:
+        serializedVersion: 2
+        x: 3924
+        y: 1782
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffea92dbe52cb694086a4cc46c3ec5ff
+      internalID: 161542387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punched-holes 1_25
+      rect:
+        serializedVersion: 2
+        x: 4578
+        y: 1782
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094d9f56ec81ad14b8097c4e6e2a2764
+      internalID: 1205488719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punched-holes 1_26
+      rect:
+        serializedVersion: 2
+        x: 5232
+        y: 1782
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: accff4a3fc32f2f4585de0686fbd0c33
+      internalID: 997910218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punched-holes 1_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1188
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be89296c17052f46b90b422a78604cf
+      internalID: 1185802400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punched-holes 1_28
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 1188
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a1d23fbf7b18b408bf4feba54107e6
+      internalID: 112271979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punched-holes 1_29
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 1188
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a058423a1be7819418b62745f20da88a
+      internalID: 377851569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punched-holes 1_30
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 1188
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35da51cd8c4ac34bb5f640efd4015b2
+      internalID: -402403721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punched-holes 1_31
+      rect:
+        serializedVersion: 2
+        x: 2616
+        y: 1188
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9f0c897dd05914f8c6399f4627d54d
+      internalID: 690186401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punched-holes 1_32
+      rect:
+        serializedVersion: 2
+        x: 3270
+        y: 1188
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 184d7cf8e1a1fa0438a2a2d29c6ad64a
+      internalID: 699855277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punched-holes 1_33
+      rect:
+        serializedVersion: 2
+        x: 3924
+        y: 1188
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548d2c5c223d5de4a8dd387a5e0d68cf
+      internalID: 919251980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punched-holes 1_34
+      rect:
+        serializedVersion: 2
+        x: 4578
+        y: 1188
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 567a46183656c90468446b9ec1d860fa
+      internalID: 47027632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punched-holes 1_35
+      rect:
+        serializedVersion: 2
+        x: 5232
+        y: 1188
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62e6073caa9e80047a7ab1c83f342c4d
+      internalID: -852795452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punched-holes 1_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 594
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4274a6725664d034698816b297d2cc2b
+      internalID: 25321238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punched-holes 1_37
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 594
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 874a44e37f4517a4e96782a2c1ff9be5
+      internalID: -808593531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punched-holes 1_38
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 594
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 830d7970a66fba7478f75a6df4829acc
+      internalID: -1541271066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punched-holes 1_39
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 594
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c5f40416f32abc44ac89f5ca45d502e
+      internalID: 631343920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punched-holes 1_40
+      rect:
+        serializedVersion: 2
+        x: 2616
+        y: 594
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6bbdaee1dc667348b72e584860d10cc
+      internalID: -72574251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punched-holes 1_41
+      rect:
+        serializedVersion: 2
+        x: 3270
+        y: 594
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dbd59cdc2a9fab4481623b76f335a7c
+      internalID: -2073272650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punched-holes 1_42
+      rect:
+        serializedVersion: 2
+        x: 3924
+        y: 594
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 797561dea723b9940931ce3b890ffde3
+      internalID: -482954319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punched-holes 1_43
+      rect:
+        serializedVersion: 2
+        x: 4578
+        y: 594
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa0a2154e6c7f064f9c17c53dd198174
+      internalID: -2000627526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punched-holes 1_44
+      rect:
+        serializedVersion: 2
+        x: 5232
+        y: 594
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148f7cadf00436f40acdc07b45ecee98
+      internalID: -236642458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punched-holes 1_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4edd661c251e8254780ea57b6d190002
+      internalID: 556904355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punched-holes 1_46
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 0
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f960c1f642429444ba131b594bf84702
+      internalID: -534095532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punched-holes 1_47
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 0
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82807255c081eca4d8fce5aa403c931c
+      internalID: 1113745121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punched-holes 1_48
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 0
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ac09adc4532264fa2ba831f795330a
+      internalID: 1803739506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punched-holes 1_49
+      rect:
+        serializedVersion: 2
+        x: 2616
+        y: 0
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1704de9a4b04dc94e8b65dade46ce18f
+      internalID: -79235215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punched-holes 1_50
+      rect:
+        serializedVersion: 2
+        x: 3270
+        y: 0
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b10e5977c6084aa4586b50dd4b88d896
+      internalID: -1256181922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punched-holes 1_51
+      rect:
+        serializedVersion: 2
+        x: 3924
+        y: 0
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c31c9df163725ac459422d0454de1c57
+      internalID: -1910480642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punched-holes 1_52
+      rect:
+        serializedVersion: 2
+        x: 4578
+        y: 0
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 713b22cd1f857cc4899c75c53d109908
+      internalID: 1645570641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punched-holes 1_53
+      rect:
+        serializedVersion: 2
+        x: 5232
+        y: 0
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee803ae658bcf44d8fd931864d456ea
+      internalID: -1501737998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: dfd390f81beac5842870c71854b2d451
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":9.0,"y":6.0},"gridSpriteSize":{"x":654.0,"y":594.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      punched-holes 1_0: -1898331705
+      punched-holes 1_1: 944577747
+      punched-holes 1_10: -1795994160
+      punched-holes 1_11: -435127199
+      punched-holes 1_12: -1058422064
+      punched-holes 1_13: -432123333
+      punched-holes 1_14: 671612704
+      punched-holes 1_15: -1836056870
+      punched-holes 1_16: -211356151
+      punched-holes 1_17: -1340244846
+      punched-holes 1_18: -1822663849
+      punched-holes 1_19: 1687803744
+      punched-holes 1_2: -1650541965
+      punched-holes 1_20: -1249267488
+      punched-holes 1_21: 976953237
+      punched-holes 1_22: 1721924944
+      punched-holes 1_23: -427401569
+      punched-holes 1_24: 161542387
+      punched-holes 1_25: 1205488719
+      punched-holes 1_26: 997910218
+      punched-holes 1_27: 1185802400
+      punched-holes 1_28: 112271979
+      punched-holes 1_29: 377851569
+      punched-holes 1_3: -1796598928
+      punched-holes 1_30: -402403721
+      punched-holes 1_31: 690186401
+      punched-holes 1_32: 699855277
+      punched-holes 1_33: 919251980
+      punched-holes 1_34: 47027632
+      punched-holes 1_35: -852795452
+      punched-holes 1_36: 25321238
+      punched-holes 1_37: -808593531
+      punched-holes 1_38: -1541271066
+      punched-holes 1_39: 631343920
+      punched-holes 1_4: -1209858253
+      punched-holes 1_40: -72574251
+      punched-holes 1_41: -2073272650
+      punched-holes 1_42: -482954319
+      punched-holes 1_43: -2000627526
+      punched-holes 1_44: -236642458
+      punched-holes 1_45: 556904355
+      punched-holes 1_46: -534095532
+      punched-holes 1_47: 1113745121
+      punched-holes 1_48: 1803739506
+      punched-holes 1_49: -79235215
+      punched-holes 1_5: -462119820
+      punched-holes 1_50: -1256181922
+      punched-holes 1_51: -1910480642
+      punched-holes 1_52: 1645570641
+      punched-holes 1_53: -1501737998
+      punched-holes 1_6: 470633545
+      punched-holes 1_7: 305579030
+      punched-holes 1_8: -213288609
+      punched-holes 1_9: -89600704
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

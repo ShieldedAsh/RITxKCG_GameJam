@@ -14,20 +14,25 @@ public class ShojiTear : MonoBehaviour
     // 破壊されてからのカウントの最大値
     [SerializeField] private float maxBreakElapsedTime;
 
-    // レンダー
-    private Renderer _rend;
+    // スプライト
+    public Sprite[] sprites { get; set; }
+
+    // スプライトレンダー
+    private SpriteRenderer _spriteRenderer;
+
+
 
     private void Start()
     {
         breakLevel = BreakLevel.NotBreak;
-        _rend = GetComponent<Renderer>();
-        _rend.enabled = false;
+        _spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     private void Update()
     {
-        _rend.enabled = breakLevel == BreakLevel.NotBreak ? true : false;
+        UpdateSprite();
         AddSinceBreakCount();
+        
     }
 
     /// <summary>
@@ -79,4 +84,24 @@ public class ShojiTear : MonoBehaviour
     {
         breakLevel = BreakLevel.TrueBreak;
     }
+
+    /// <summary>
+    /// スプライトのアップデート
+    /// </summary>
+    private void UpdateSprite()
+    {
+        switch (breakLevel)
+        {
+            case BreakLevel.NotBreak:
+                _spriteRenderer.sprite = sprites[0];
+                break;
+
+            case BreakLevel.Break:
+            case BreakLevel.TrueBreak:
+                _spriteRenderer.sprite = sprites[1];
+                break;
+
+        }
+    }
+
 }
