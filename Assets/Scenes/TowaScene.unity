@@ -154,7 +154,6 @@ MonoBehaviour:
   _ySpacing: 1
   _startPosition: {x: 0, y: 0, z: 0}
   _shojiPrefab: {fileID: 6491869188015658585, guid: d4a47d682325ca54b932b967ebf31891, type: 3}
-  _pattern: {fileID: 1901365289}
   sprites: []
 --- !u!4 &330490196
 Transform:
@@ -263,7 +262,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1901365288
+--- !u!1 &1394172283
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -271,37 +270,41 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1901365290}
-  - component: {fileID: 1901365289}
+  - component: {fileID: 1394172285}
+  - component: {fileID: 1394172284}
   m_Layer: 0
-  m_Name: Pattern
+  m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1901365289
+--- !u!114 &1394172284
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1901365288}
+  m_GameObject: {fileID: 1394172283}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 475a6dcf450fadf4a90169301569ab1b, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c893e0920138714e8294dbf9be2c4ed, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Pattern
---- !u!4 &1901365290
+  m_EditorClassIdentifier: Assembly-CSharp::WomanScoreMessage
+  _scoreThresholds: 
+  _womanMessages: []
+  _currentLanguage: 0
+  _langageCount: 0
+--- !u!4 &1394172285
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1901365288}
+  m_GameObject: {fileID: 1394172283}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -12.0913, y: 1.99489, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -313,4 +316,4 @@ SceneRoots:
   m_Roots:
   - {fileID: 582542314}
   - {fileID: 330490196}
-  - {fileID: 1901365290}
+  - {fileID: 1394172285}

@@ -1,20 +1,14 @@
 using System.Collections.Generic;
-using UnityEngine;
 
-public class Pattern : MonoBehaviour
+public class ShojiPattern
 {
     // パターン
     public List<bool[,]> pattern { get; private set; } = new List<bool[,]>();
 
-    private void Start()
-    {
-        InitializePatterns();
-    }
-
     /// <summary>
     /// パターンの初期化
     /// </summary>
-    private void InitializePatterns()
+    public void InitializePatterns()
     {
         // 十字
         pattern.Add(new bool[,]
