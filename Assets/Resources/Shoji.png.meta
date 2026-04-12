@@ -1,0 +1,1364 @@
+fileFormatVersion: 2
+guid: 8df667d2f0fa68641b24dec2f8bd4ba6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3947757479366237409
+    second: shoji-walll-layers_shoji-wall_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2970
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 927a85852b4913141999ab13a7dae295
+      internalID: 1712608408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_1
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 2970
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b33a4ce978d8a7b4db030218c9a43949
+      internalID: 233388797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_2
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 2970
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b9afb7facf9cd4faa1e7cba5dbb63e
+      internalID: 1179871672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_3
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 2970
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc6422037f48e043949bd2772b24fb3
+      internalID: 914157320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_4
+      rect:
+        serializedVersion: 2
+        x: 2616
+        y: 2970
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c730f251bbc27145a1d0228e2f01b4f
+      internalID: -1816326762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_5
+      rect:
+        serializedVersion: 2
+        x: 3270
+        y: 2970
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e49f00ea26ab424cbfdae473e4619ce
+      internalID: 1071866251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_6
+      rect:
+        serializedVersion: 2
+        x: 3924
+        y: 2970
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fcaca44b85c4a346b0ab5691643e424
+      internalID: -1794778145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_7
+      rect:
+        serializedVersion: 2
+        x: 4578
+        y: 2970
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70de8a166592445418e6c9d49d8cccee
+      internalID: -1698418479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_8
+      rect:
+        serializedVersion: 2
+        x: 5232
+        y: 2970
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e3b4691620817428332151499f94bf
+      internalID: 564363220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2376
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee2a77db52328a4cad61848576c5212
+      internalID: 1430082333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_10
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 2376
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d410e997e2f15364092c1cbfd849547f
+      internalID: -1212346878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_11
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 2376
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f92705414a0f92f4fb7a3a899db301e3
+      internalID: -737783875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_12
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 2376
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6b919e6f107e84f9dd6d150998aa50
+      internalID: 735319524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_13
+      rect:
+        serializedVersion: 2
+        x: 2616
+        y: 2376
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf5d5b16c624ec4588711b798fa6af8
+      internalID: -1762070970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_14
+      rect:
+        serializedVersion: 2
+        x: 3270
+        y: 2376
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef4de970021e7e4e923d394ce6974d2
+      internalID: 1641877359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_15
+      rect:
+        serializedVersion: 2
+        x: 3924
+        y: 2376
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e85a2c82bfa4164d8f849fc84032c17
+      internalID: -1500465755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_16
+      rect:
+        serializedVersion: 2
+        x: 4578
+        y: 2376
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796f523226a8e9f4f92eb2e3dc7130bf
+      internalID: -2129794193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_17
+      rect:
+        serializedVersion: 2
+        x: 5232
+        y: 2376
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6005dd76d3ceff14ba44207540b6b811
+      internalID: -2089243960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1782
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce08bd97c81fb0b41b12dd6d643eb0ab
+      internalID: -1290454325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_19
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 1782
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ff751faabf1ba4aaf991fb633d40df
+      internalID: -945564914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_20
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 1782
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6161beadac2e8c42826b50b25141935
+      internalID: -703504033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_21
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 1782
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd4cd932387216458d8e2cb4a9a4557
+      internalID: 198665926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_22
+      rect:
+        serializedVersion: 2
+        x: 2616
+        y: 1782
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f749128990ddb1446b5df7d47522e74d
+      internalID: -1791364765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_23
+      rect:
+        serializedVersion: 2
+        x: 3270
+        y: 1782
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c58cb165683c81c47b73edc3066866a0
+      internalID: 531213937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_24
+      rect:
+        serializedVersion: 2
+        x: 3924
+        y: 1782
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcaffdb6a2d01ea459096ebfc9d1af75
+      internalID: 1223512790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_25
+      rect:
+        serializedVersion: 2
+        x: 4578
+        y: 1782
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09612254b6232c1408d66d1d576db20a
+      internalID: 1418097670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_26
+      rect:
+        serializedVersion: 2
+        x: 5232
+        y: 1782
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980206e7854760642a9cbdc8e5cd6e9d
+      internalID: -1488314959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1188
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ea34fc3e74de943a3706cdb1f18b9c
+      internalID: 64599248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_28
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 1188
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e233f0b9e04174fb6e7382a93e3ac6
+      internalID: -115170641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_29
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 1188
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7fdf4cdb9b3474d9287fa0099b5832
+      internalID: -2093977855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_30
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 1188
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df8dec933a4a94141a89a583eff28aa5
+      internalID: 1829179273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_31
+      rect:
+        serializedVersion: 2
+        x: 2616
+        y: 1188
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9223cffd5277f244c88e86a99386735b
+      internalID: -1374884235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_32
+      rect:
+        serializedVersion: 2
+        x: 3270
+        y: 1188
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ae9d4d5b3983f43ad605adc01abb01
+      internalID: -802923744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_33
+      rect:
+        serializedVersion: 2
+        x: 3924
+        y: 1188
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083c227ba7a9959489de698192ea32cf
+      internalID: -1199593973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_34
+      rect:
+        serializedVersion: 2
+        x: 4578
+        y: 1188
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf42f0b468ac214f8d104f040b0d251
+      internalID: 1139835578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_35
+      rect:
+        serializedVersion: 2
+        x: 5232
+        y: 1188
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390ad15f520d2e84e92ce90c5fb58934
+      internalID: 1802284369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 594
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ad52d0ec614da49aa0577d9db8ba8f
+      internalID: 756448754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_37
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 594
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ddc0e7090f74ab4dad775460189a6ee
+      internalID: -1957709794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_38
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 594
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7a3777848c6d04ab9f9be523a754cb
+      internalID: -34122114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_39
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 594
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a196f3d7e1a68d346a193ce2d7e2c1b4
+      internalID: 2118161487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_40
+      rect:
+        serializedVersion: 2
+        x: 2616
+        y: 594
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654c8774435a2de4c90d2cda9281f203
+      internalID: 336433615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_41
+      rect:
+        serializedVersion: 2
+        x: 3270
+        y: 594
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7788d74ea79b7fb4f9254c1d502ea893
+      internalID: -1891459393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_42
+      rect:
+        serializedVersion: 2
+        x: 3924
+        y: 594
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc519bf87a09f4d4da3e9fb7ccaed3f4
+      internalID: -1971719770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_43
+      rect:
+        serializedVersion: 2
+        x: 4578
+        y: 594
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 007a6815e9585dd4c8560d2a53666f39
+      internalID: -1782080969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_44
+      rect:
+        serializedVersion: 2
+        x: 5232
+        y: 594
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afffe9b90997630419a97827f9e87985
+      internalID: -865024720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec61fc6f87a164e42809eea4a4c1e6ac
+      internalID: -76124946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_46
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 0
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56422acfc8de5a547beb0109f49edb83
+      internalID: -1471469015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_47
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 0
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76bcb20f557df6644b25b7ee1b6bcbb5
+      internalID: 1709545867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_48
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 0
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5974dea63c900b34590f21def2940452
+      internalID: -1933116260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_49
+      rect:
+        serializedVersion: 2
+        x: 2616
+        y: 0
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 298b232f951241d4d922c5a216ef534f
+      internalID: -994014109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_50
+      rect:
+        serializedVersion: 2
+        x: 3270
+        y: 0
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82030d437305aa343b339addd9c80d3a
+      internalID: -293967715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_51
+      rect:
+        serializedVersion: 2
+        x: 3924
+        y: 0
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ba0d88a8533e14bbd19077496c278b
+      internalID: -1983530539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_52
+      rect:
+        serializedVersion: 2
+        x: 4578
+        y: 0
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f34777260fe9fe040adc41e6404e475e
+      internalID: -1138763489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoji-walll-layers_shoji-wall 1_53
+      rect:
+        serializedVersion: 2
+        x: 5232
+        y: 0
+        width: 654
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21586f854f5b08a46a89aa5642ae393c
+      internalID: -1411450236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 32240f651337ae94a89d9ca6d8f0e07f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":9.0,"y":6.0},"gridSpriteSize":{"x":654.0,"y":594.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      shoji-walll-layers_shoji-wall 1_0: 1712608408
+      shoji-walll-layers_shoji-wall 1_1: 233388797
+      shoji-walll-layers_shoji-wall 1_10: -1212346878
+      shoji-walll-layers_shoji-wall 1_11: -737783875
+      shoji-walll-layers_shoji-wall 1_12: 735319524
+      shoji-walll-layers_shoji-wall 1_13: -1762070970
+      shoji-walll-layers_shoji-wall 1_14: 1641877359
+      shoji-walll-layers_shoji-wall 1_15: -1500465755
+      shoji-walll-layers_shoji-wall 1_16: -2129794193
+      shoji-walll-layers_shoji-wall 1_17: -2089243960
+      shoji-walll-layers_shoji-wall 1_18: -1290454325
+      shoji-walll-layers_shoji-wall 1_19: -945564914
+      shoji-walll-layers_shoji-wall 1_2: 1179871672
+      shoji-walll-layers_shoji-wall 1_20: -703504033
+      shoji-walll-layers_shoji-wall 1_21: 198665926
+      shoji-walll-layers_shoji-wall 1_22: -1791364765
+      shoji-walll-layers_shoji-wall 1_23: 531213937
+      shoji-walll-layers_shoji-wall 1_24: 1223512790
+      shoji-walll-layers_shoji-wall 1_25: 1418097670
+      shoji-walll-layers_shoji-wall 1_26: -1488314959
+      shoji-walll-layers_shoji-wall 1_27: 64599248
+      shoji-walll-layers_shoji-wall 1_28: -115170641
+      shoji-walll-layers_shoji-wall 1_29: -2093977855
+      shoji-walll-layers_shoji-wall 1_3: 914157320
+      shoji-walll-layers_shoji-wall 1_30: 1829179273
+      shoji-walll-layers_shoji-wall 1_31: -1374884235
+      shoji-walll-layers_shoji-wall 1_32: -802923744
+      shoji-walll-layers_shoji-wall 1_33: -1199593973
+      shoji-walll-layers_shoji-wall 1_34: 1139835578
+      shoji-walll-layers_shoji-wall 1_35: 1802284369
+      shoji-walll-layers_shoji-wall 1_36: 756448754
+      shoji-walll-layers_shoji-wall 1_37: -1957709794
+      shoji-walll-layers_shoji-wall 1_38: -34122114
+      shoji-walll-layers_shoji-wall 1_39: 2118161487
+      shoji-walll-layers_shoji-wall 1_4: -1816326762
+      shoji-walll-layers_shoji-wall 1_40: 336433615
+      shoji-walll-layers_shoji-wall 1_41: -1891459393
+      shoji-walll-layers_shoji-wall 1_42: -1971719770
+      shoji-walll-layers_shoji-wall 1_43: -1782080969
+      shoji-walll-layers_shoji-wall 1_44: -865024720
+      shoji-walll-layers_shoji-wall 1_45: -76124946
+      shoji-walll-layers_shoji-wall 1_46: -1471469015
+      shoji-walll-layers_shoji-wall 1_47: 1709545867
+      shoji-walll-layers_shoji-wall 1_48: -1933116260
+      shoji-walll-layers_shoji-wall 1_49: -994014109
+      shoji-walll-layers_shoji-wall 1_5: 1071866251
+      shoji-walll-layers_shoji-wall 1_50: -293967715
+      shoji-walll-layers_shoji-wall 1_51: -1983530539
+      shoji-walll-layers_shoji-wall 1_52: -1138763489
+      shoji-walll-layers_shoji-wall 1_53: -1411450236
+      shoji-walll-layers_shoji-wall 1_6: -1794778145
+      shoji-walll-layers_shoji-wall 1_7: -1698418479
+      shoji-walll-layers_shoji-wall 1_8: 564363220
+      shoji-walll-layers_shoji-wall 1_9: 1430082333
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

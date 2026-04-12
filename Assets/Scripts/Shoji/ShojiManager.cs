@@ -43,11 +43,16 @@ public class ShojiManager : MonoBehaviour
 
     private ShojiPattern _pattern;
 
-    public Sprite[] sprites;
+    private Sprite[] _sprites;
+
+    private Sprite[] _breakSprites;
+
 
     public void Start()
     {
-        sprites = Resources.LoadAll<Sprite>("Sprite_ShojiScreen");
+        _sprites = Resources.LoadAll<Sprite>("Shoji");
+        _breakSprites = Resources.LoadAll<Sprite>("BreakShoji");
+
         InitializeShojis();
         _pattern = new ShojiPattern();
         _pattern.InitializePatterns();
@@ -88,8 +93,7 @@ public class ShojiManager : MonoBehaviour
                     y * _ySpacing,
                     0f
                 );
-                int spriteNum = x + (_createHeight - 1 - y) * 10;
-                if (spriteNum >= 20) spriteNum -= 10;
+                int spriteNum = x + (_createHeight - 1 - y) * _createWidth;
                 var shoji = CreateShoji(pos, spriteNum);
                 _shojis[y, x] = shoji;
             }
@@ -106,11 +110,8 @@ public class ShojiManager : MonoBehaviour
 
         var shoji = createObj.GetComponent<ShojiTear>();
 
-        // SpriteRenderer を取得
-        var renderer = createObj.GetComponent<SpriteRenderer>();
-
         // スプライト配列から指定番号のスプライトを設定
-        renderer.sprite = sprites[spriteNum];
+        shoji.sprites = new Sprite[2] { _sprites[spriteNum] , _breakSprites[spriteNum] };
 
         return shoji;
     }
