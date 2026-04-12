@@ -13,7 +13,7 @@ public class TimerDisplay : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (timer >= 90f)
+        if (timer >= 1f)
         {
             SceneManager.LoadScene("ResultsScene");
             timer = 0f;
