@@ -16,6 +16,7 @@ public class TimerDisplay : MonoBehaviour
         if (timer >= 90f)
         {
             SceneManager.LoadScene("ResultsScene");
+            timer = 0f;
         }
         
         timer += Time.deltaTime;
