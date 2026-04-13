@@ -32,6 +32,9 @@ public class PauseMenu : MonoBehaviour
 
     public void Resume()
     {
+        // Make the cursor invisible
+        Cursor.visible = false;
+
         shojiWallFrame.SetActive(true);
         pauseMenuUI.SetActive(false); // Hide pause menu
         Time.timeScale = 1f; // Resume game time
