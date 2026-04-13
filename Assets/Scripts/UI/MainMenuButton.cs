@@ -15,6 +15,7 @@ public class MainMenuButton : MonoBehaviour
             {
                 PauseMenu.Instance.Resume();
                 TimerDisplay.Instance.Timer = 0f;
+                Cursor.visible = true;
             }
 
             SceneManager.LoadScene("TitleScene");
