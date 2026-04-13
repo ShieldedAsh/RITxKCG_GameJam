@@ -1,10 +1,6 @@
-using System;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.U2D;
-using static ShojiTear;
-
 // 破壊レベル
+using UnityEngine;
+
 public enum BreakLevel
 {
     NotBreak,
@@ -14,9 +10,8 @@ public enum BreakLevel
 
 public class ShojiManager : MonoBehaviour
 {
-
     // 障子
-    private ShojiTear[,] _shojis;
+    public ShojiTear[,] _shojis { get; private set; }
 
     [Header("CreateCounts")]
     // 生成する横幅
@@ -41,12 +36,18 @@ public class ShojiManager : MonoBehaviour
     //障子のプレファブ
     [SerializeField] private ShojiTear _shojiPrefab;
 
+    [Header("Light")]
+    // 光管理クラス
+    [SerializeField] private LightManager _lightManager;
+
+    // パターンの
     private ShojiPattern _pattern;
 
-    private Sprite[] _sprites;
+    // スプライト配列
+    public Sprite[] _sprites;
 
+    // 破壊スプライト配列
     private Sprite[] _breakSprites;
-
 
     public void Start()
     {
@@ -56,13 +57,19 @@ public class ShojiManager : MonoBehaviour
         InitializeShojis();
         _pattern = new ShojiPattern();
         _pattern.InitializePatterns();
+        _lightManager.Initialize(_shojis);
     }
+
 
 
     private void Update()
     {
         Check();
     }
+
+    /// <summary>
+    /// パターンのチェック
+    /// </summary>
     public void Check()
     {
         // 全てのパターンをチェック
@@ -70,7 +77,6 @@ public class ShojiManager : MonoBehaviour
         {
             if (CheckPattern(it))
             {
-                AudioManager.Instance.SeShapeCompletion.Play();
                 Debug.Log("パターン成立");
             }
         }
@@ -83,7 +89,7 @@ public class ShojiManager : MonoBehaviour
     {
         _shojis = new ShojiTear[_createHeight, _createWidth];
 
-        Vector3 _offsetPos = new Vector3(-_createWidth * 0.5f + 0.5f,-_createHeight * 0.5f + 0.5f, 0);
+        Vector3 _offsetPos = new Vector3(-_createWidth * 0.5f + 0.5f, -_createHeight * 0.5f + 0.5f, 0);
 
         for (int y = 0; y < _createHeight; y++)
         {
@@ -95,6 +101,7 @@ public class ShojiManager : MonoBehaviour
                     0f
                 );
                 int spriteNum = x + (_createHeight - 1 - y) * _createWidth;
+
                 var shoji = CreateShoji(pos, spriteNum);
                 _shojis[y, x] = shoji;
             }
@@ -112,7 +119,7 @@ public class ShojiManager : MonoBehaviour
         var shoji = createObj.GetComponent<ShojiTear>();
 
         // スプライト配列から指定番号のスプライトを設定
-        shoji.sprites = new Sprite[2] { _sprites[spriteNum] , _breakSprites[spriteNum] };
+        shoji.sprites = new Sprite[2] { _sprites[spriteNum], _breakSprites[spriteNum] };
 
         return shoji;
     }
@@ -195,5 +202,13 @@ public class ShojiManager : MonoBehaviour
         }
     }
 
+    public int GetCreateWidth()
+    {
+        return _createWidth;
+    }
 
+    public int GetCreateHeight()
+    {
+        return _createHeight;
+    }
 };
