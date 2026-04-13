@@ -40,6 +40,8 @@ public class PauseMenu : MonoBehaviour
 
     void Pause()
     {
+        AudioManager.Instance.SePause.Play();
+
         // Make the cursor visible
         Cursor.visible = true;
 

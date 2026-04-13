@@ -6,6 +6,7 @@ TagManager:
   tags:
   - bad
   - good
+  - GameStart
   layers:
   - Default
   - TransparentFX

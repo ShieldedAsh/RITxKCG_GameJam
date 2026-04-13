@@ -15,6 +15,8 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private AudioSource seHittingShojiScreen;
     [SerializeField] private AudioSource seTargetHit;
     [SerializeField] private AudioSource seMenuOpen;
+    [SerializeField] private AudioSource seGameStart;
+    [SerializeField] private AudioSource sePause;
 
     [Header("BGM")]
     [SerializeField] private AudioSource bgmTitle;
@@ -25,6 +27,11 @@ public class AudioManager : MonoBehaviour
     public AudioSource SeTargetHit { get { return seTargetHit; } }
     public AudioSource SeFailedHit { get { return seFailedHit; } }
     public AudioSource SeHittingShojiScreen { get { return seHittingShojiScreen; } }
+    public AudioSource SeGameStart { get { return seGameStart; } }
+
+    public AudioSource SeShapeCompletion { get { return seShapeCompletion; } }
+
+    public AudioSource SePause { get { return sePause; } }
 
     private void Awake()
     {
@@ -70,7 +77,14 @@ public class AudioManager : MonoBehaviour
         foreach (Button button in buttons)
         {
             // Add click sound
-            button.onClick.AddListener(() => PlayButtonClick());
+            if (!button.CompareTag("GameStart"))
+            {
+                button.onClick.AddListener(() => PlayButtonClick());
+            }
+            else
+            {
+                button.onClick.AddListener(() => PlayGameStart());
+            }
         }
     }
 
@@ -78,6 +92,11 @@ public class AudioManager : MonoBehaviour
     {
         if (seButtonPress != null)
             seButtonPress.Play();
+    }
+    public void PlayGameStart()
+    {
+        if (seGameStart != null)
+            seGameStart.Play();
     }
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
