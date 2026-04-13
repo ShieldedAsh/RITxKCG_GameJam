@@ -1,16 +1,54 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class PauseManager : MonoBehaviour
+public class PauseMenu : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public static PauseMenu Instance;
+
+    public static bool GameIsPaused = false;
+    public GameObject pauseMenuUI;
+    public GameObject shojiWallFrame;
+
+    private void Awake()
     {
-        
+        Instance = this;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        // Check for pause input (Escape key)
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (GameIsPaused)
+            {
+                Resume();
+            }
+            else
+            {
+                Pause();
+            }
+        }
+    }
+
+    public void Resume()
+    {
+        shojiWallFrame.SetActive(true);
+        pauseMenuUI.SetActive(false); // Hide pause menu
+        Time.timeScale = 1f; // Resume game time
+        GameIsPaused = false;
+    }
+
+    void Pause()
+    {
+        // Make the cursor visible
+        Cursor.visible = true;
+
+        // Unlock the cursor so it can move freely
+        Cursor.lockState = CursorLockMode.None;
+
+        shojiWallFrame.SetActive(false);
+        pauseMenuUI.SetActive(true); // Show pause menu
+        Time.timeScale = 0f; // Freeze game time
+        GameIsPaused = true;
     }
 }
