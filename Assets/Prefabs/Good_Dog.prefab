@@ -273,6 +273,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GoodObject
   objScore: 5000
+  kind: 6
 --- !u!114 &-1127250700781969585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -286,8 +287,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectMover
   rb: {fileID: 933200846735093196}
-  despawnThresholdLR: 4
-  despawnThresholdRL: -4
-  despawnThresholdTB: -5
-  despawnThresholdBT: 0
-  movementSpeed: 3

@@ -17,54 +17,40 @@ public class ObjectMover : MonoBehaviour
     [SerializeField]
     private Rigidbody2D rb; //rigidbody ref
 
-    [SerializeField]
-    //value at which the object will despawn moving from Left to Right
-    private int despawnThresholdLR = 4;
-
-    [SerializeField]
-    //value at which the object will despawn moving from Right to Left
-    private int despawnThresholdRL = -4;
-
-    [SerializeField]
-    //value at which the object will despawn moving from Top to Bottom
-    private int despawnThresholdTB = -5;
-
-    [SerializeField]
-    //value at which the object will despawn moving from Bottom to Top
-    private int despawnThresholdBT = 0;
-
-    [SerializeField]
-    //the speed at which the object moves
-    private float movementSpeed = 3f;
+    private float movementSpeed;
 
     //The direction this object will be moving
     private Movement moveDir;
 
-    private void Start()
+    //SpawnData
+    private Vector2 spawnAreaLT;
+    private Vector2 spawnAreaRB;
+
+    public void Initialize(GameObject moveArea, GameData gameData)
     {
-        //sometimes objects spawn at y=5, i do not know why so i am forcing them to delete themselves
-        if (transform.position.y == -5f)
-        {
-            ObjectManager.objects.Remove(this.gameObject);
-            Destroy(this.gameObject);
-        }
-        
-        if (transform.position.x <= -3.25f)
+        Vector2 harfScale = moveArea.transform.localScale * 0.5f;
+        spawnAreaLT = new(moveArea.transform.position.x - harfScale.x, moveArea.transform.position.y + harfScale.y);
+        spawnAreaRB = new(moveArea.transform.position.x + harfScale.x, moveArea.transform.position.y - harfScale.y);
+
+        if (transform.position.x <= spawnAreaLT.x)
         {
             moveDir = Movement.LeftRight;
         }
-        else if (transform.position.x >= 3.25f)
+        else if (transform.position.x >= spawnAreaRB.x)
         {
             moveDir = Movement.RightLeft;
         }
-        else if (transform.position.y >= -0.5f)
+        else if (transform.position.y >= spawnAreaLT.y)
         {
             moveDir = Movement.TopBottom;
         }
-        else if (transform.position.y <= -4.5)
+        else if (transform.position.y <= spawnAreaRB.y)
         {
             moveDir = Movement.BottomTop;
         }
+
+
+        movementSpeed = Random.Range(gameData.TargetMinSpeed, gameData.TargetMaxSpeed);
     }
 
     // Update is called once per frame
@@ -74,7 +60,7 @@ public class ObjectMover : MonoBehaviour
         {
             case Movement.LeftRight:
                 //destroy object if it is past despawn threshold
-                if (transform.position.x >= despawnThresholdLR)
+                if (transform.position.x >= spawnAreaRB.x + 0.5f)
                 {
                     Destroy(this.gameObject);
                     ObjectManager.objects.Remove(this.gameObject);
@@ -85,7 +71,7 @@ public class ObjectMover : MonoBehaviour
                 break;
             case Movement.RightLeft:
                 //destroy object if it is past despawn threshold
-                if (transform.position.x <= despawnThresholdRL)
+                if (transform.position.x <= spawnAreaLT.x - 0.5f)
                 {
                     Destroy(this.gameObject);
                     ObjectManager.objects.Remove(this.gameObject);
@@ -96,7 +82,7 @@ public class ObjectMover : MonoBehaviour
                 break;
             case Movement.TopBottom:
                 //destroy object if it is past despawn threshold
-                if (transform.position.y <= despawnThresholdTB)
+                if (transform.position.y <= spawnAreaRB.y - 0.5f)
                 {
                     Destroy(this.gameObject);
                     ObjectManager.objects.Remove(this.gameObject);
@@ -107,7 +93,7 @@ public class ObjectMover : MonoBehaviour
                 break;
             case Movement.BottomTop:
                 //destroy object if it is past despawn threshold
-                if (transform.position.y >= despawnThresholdTB)
+                if (transform.position.y >= spawnAreaLT.y + 0.5f)
                 {
                     Destroy(this.gameObject);
                     ObjectManager.objects.Remove(this.gameObject);
