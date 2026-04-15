@@ -272,7 +272,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b303d8a11726ca409daf31b582cf760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BadObject
-  objScore: -1000
+  objScore: -7500
 --- !u!114 &-6878977509202107836
 MonoBehaviour:
   m_ObjectHideFlags: 0
