@@ -11,7 +11,7 @@ public class LanguageButton : MonoBehaviour
         Button button = GetComponent<Button>();
         button.onClick.AddListener(()=>
         {
-            SettingsManager.Instance.CurrentLanguage = language;
+            SettingsManager.Instance.SetLanguage(language);
         });
     }
 }

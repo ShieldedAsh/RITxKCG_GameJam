@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0cf8b4a337dd5ef42871643b7bfa05c4
+guid: 0b2a91208ca51914ba0d89a3a08f1e99
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7842965282606261024
-    second: shoji screen_continue-en-hovered copy 2_0
+      213: -1787165087954871277
+    second: shoji screen_continue-jp-hovered copy 2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: shoji screen_continue-en-hovered copy 2_0
+      name: shoji screen_continue-jp-hovered copy 2_0
       rect:
         serializedVersion: 2
         x: 569
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0ec588811a0382390800000000000000
-      internalID: -7842965282606261024
+      spriteID: 31c587142d6b237e0800000000000000
+      internalID: -1787165087954871277
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      shoji screen_continue-en-hovered copy 2_0: -7842965282606261024
+      shoji screen_continue-jp-hovered copy 2_0: -1787165087954871277
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

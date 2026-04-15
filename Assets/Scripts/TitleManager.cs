@@ -7,7 +7,7 @@ public class TitleManager : MonoBehaviour
 
     void Start()
     {
-        localizationManager.Initialize();
+        //localizationManager.Initialize();
     }
 
     void Update()
