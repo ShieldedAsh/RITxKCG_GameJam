@@ -9,6 +9,12 @@ Note: This file might need to undergo separation of responsibilities because the
 public class ObjectManager : MonoBehaviour
 {
     [SerializeField]
+    private GameData gameData; //reference to the game data scriptable object
+
+    [SerializeField]
+    private GameObject moveArea; //reference to the move area object
+
+    [SerializeField]
     private List<GameObject> badObject; //reference to bad objects
 
     [SerializeField]
@@ -17,21 +23,43 @@ public class ObjectManager : MonoBehaviour
     //list of all the objects currently in the scene
     public static List<GameObject> objects;
 
+    private int currentTargetMaxNum;
+    private float timer = 0;
+
     //total score the player has obtained
     public static int totalScore = 0;
+
+    //SpawnData
+    private Vector2 spawnAreaLT;
+    private Vector2 spawnAreaRB;
 
     private void Start()
     {
         objects = new List<GameObject>();
+        currentTargetMaxNum = gameData.StartTargetNum;
+        timer = 0.0f;
+
+        Vector2 harfScale = moveArea.transform.localScale * 0.5f;
+        spawnAreaLT = new(moveArea.transform.position.x - harfScale.x, moveArea.transform.position.y + harfScale.y);
+        spawnAreaRB = new(moveArea.transform.position.x + harfScale.x, moveArea.transform.position.y - harfScale.y);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (objects.Count == 0)
+        if (objects.Count < currentTargetMaxNum)
         {
             SpawnNewObject();
         }
+
+        //Increase the number of targets as time goes on
+        //ŽžŠÔ‚ªŒo‰ß‚µ‚½‚ç“I‚Ì”‚ð‘‚â‚·
+        if (timer >= gameData.TargetNumIncreaseInterval)
+        {
+            currentTargetMaxNum += gameData.TargetNumIncreaseAmount;
+            timer = 0.0f;
+        }
+        timer += Time.deltaTime;
     }
 
     /// <summary>
@@ -46,56 +74,36 @@ public class ObjectManager : MonoBehaviour
         //0 is From Left To Right, 1 is From Right to Left, 2 is From Top to Bottom, 3 is from Bottom to Top
         int randomDir = Random.Range(0, 4);
 
-        int objectListSize = objectListSize = coinflip == 0 ? goodObject.Count : badObject.Count;
+        int objectListSize = coinflip == 0 ? goodObject.Count : badObject.Count;
 
         int createObjectIndex = Random.Range(0, objectListSize);
 
-        switch (coinflip)
+        Vector3 spawnPos = Vector3.zero;
+
+
+        switch (randomDir)
         {
-            //good object
             case 0:
-                switch (randomDir)
-                {
-                    case 0:
-                        GameObject tempGoodLR = Instantiate(goodObject[createObjectIndex], new Vector3(-4f, Random.Range(-4, 0) + 0.5f, 0f), Quaternion.identity); //spawns a new good obj at a random Y value between (-4, 4)
-                        objects.Add(tempGoodLR);
-                        break;
-                    case 1:
-                        GameObject tempGoodRL = Instantiate(goodObject[createObjectIndex], new Vector3(4f, Random.Range(-4, 0) + 0.5f, 0f), Quaternion.identity); //spawns a new good obj at a random Y value between (-4, 4)
-                        objects.Add(tempGoodRL);
-                        break;
-                    case 2:
-                        GameObject tempGoodTB = Instantiate(goodObject[createObjectIndex], new Vector3(Random.Range(-8, 8), 0f, 0f), Quaternion.identity);
-                        objects.Add(tempGoodTB);
-                        break;
-                    case 3:
-                        GameObject tempGoodBT = Instantiate(goodObject[createObjectIndex], new Vector3(Random.Range(-8, 8), -5f, 0f), Quaternion.identity);
-                        objects.Add(tempGoodBT);
-                        break;
-                }
+                spawnPos = new Vector3(spawnAreaLT.x - 0.5f, Random.Range(spawnAreaRB.y, spawnAreaLT.y), 0f);
                 break;
-            //bad object
             case 1:
-                switch (randomDir)
-                {
-                    case 0:
-                        GameObject tempBadLR = Instantiate(badObject[createObjectIndex], new Vector3(-6f, Random.Range(-4, 0) + 0.5f, 0f), Quaternion.identity); //spawns a new bad obj at a random Y value between (-4, 4)
-                        objects.Add(tempBadLR);
-                        break;
-                    case 1:
-                        GameObject tempBadRL = Instantiate(badObject[createObjectIndex], new Vector3(6f, Random.Range(-4, 0) + 0.5f, 0f), Quaternion.identity); //spawns a new good obj at a random Y value between (-4, 4)
-                        objects.Add(tempBadRL);
-                        break;
-                    case 2:
-                        GameObject tempBadTB = Instantiate(badObject[createObjectIndex], new Vector3(Random.Range(-8, 8), 0f, 0f), Quaternion.identity);
-                        objects.Add(tempBadTB);
-                        break;
-                    case 3:
-                        GameObject tempBadBT = Instantiate(badObject[createObjectIndex], new Vector3(Random.Range(-8, 8), -5f, 0f), Quaternion.identity);
-                        objects.Add(tempBadBT);
-                        break;
-                }
+                spawnPos = new Vector3(spawnAreaRB.x + 0.5f, Random.Range(spawnAreaRB.y, spawnAreaLT.y), 0f);
+                break;
+            case 2:
+                spawnPos = new Vector3(Random.Range(spawnAreaLT.x, spawnAreaRB.x), spawnAreaLT.y + 0.5f, 0f);
+                break;
+            case 3:
+                spawnPos = new Vector3(Random.Range(spawnAreaLT.x, spawnAreaRB.x), spawnAreaRB.y - 0.5f, 0f);
                 break;
         }
+
+        GameObject tempObj = coinflip == 0 ?
+            Instantiate(goodObject[createObjectIndex], spawnPos, Quaternion.identity) :
+            Instantiate(badObject[createObjectIndex], spawnPos, Quaternion.identity);
+        tempObj.GetComponent<ObjectMover>().Initialize(moveArea, gameData);
+        var objBase = tempObj.GetComponent<ObjectBase>();
+        int score = gameData.TargetScores.Find(x => x.Kind == objBase.Kind).Score;
+        objBase.Initialize(score);
+        objects.Add(tempObj);
     }
 }
