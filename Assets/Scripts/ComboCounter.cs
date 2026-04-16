@@ -14,7 +14,7 @@ public struct ComboData
 public class ComboCounter : MonoBehaviour
 {
     // カウントUI
-    [SerializeField] private TextMeshPro _countUI;
+    [SerializeField] private TextMeshProUGUI _countUI;
 
     // コンボリセット設定テーブル
     [SerializeField] private ComboData[] _resetTable;

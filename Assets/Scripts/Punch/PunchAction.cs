@@ -7,6 +7,9 @@ public class PunchAction : MonoBehaviour
     [SerializeField]
     private CircleCollider2D punchCollider;
 
+    [SerializeField]
+    private ComboCounter _comboCounter;
+
     public void Initialize()
     {
 
@@ -46,7 +49,9 @@ public class PunchAction : MonoBehaviour
                 foreach (ObjectBase obj in objectBases)
                 {
                     obj.ClickObject();
+                    _comboCounter.AddCombo();
                     Debug.Log("点数オブジェクトをヒット");
+
                 }
 
                 shojiTear.SetBreakLevelTrueBreak();
