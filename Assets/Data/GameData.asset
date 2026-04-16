@@ -18,23 +18,23 @@ MonoBehaviour:
   targetMaxSpeed: 3
   targetMinSpeed: 1
   targetScores:
-  - kind: 0
-    score: -1000
-  - kind: 1
-    score: -2000
-  - kind: 2
-    score: -3000
-  - kind: 3
-    score: 1000
-  - kind: 4
-    score: 2000
-  - kind: 5
-    score: 3000
-  - kind: 6
-    score: 4000
-  - kind: 7
-    score: 5000
-  - kind: 8
-    score: 6000
-  - kind: 9
-    score: 7000
+  - Kind: 0
+    Score: -100
+  - Kind: 1
+    Score: -200
+  - Kind: 2
+    Score: -300
+  - Kind: 3
+    Score: 100
+  - Kind: 4
+    Score: 200
+  - Kind: 5
+    Score: 300
+  - Kind: 6
+    Score: 400
+  - Kind: 7
+    Score: 500
+  - Kind: 8
+    Score: 600
+  - Kind: 9
+    Score: 700
