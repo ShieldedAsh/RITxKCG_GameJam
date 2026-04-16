@@ -17,7 +17,7 @@ public class PunchCursor : MonoBehaviour
     /// </summary>
     public void Initialize()
     {
-        Cursor.visible = false;
+        //Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
 
         //Get the world coordinates of the bottom-left and top-right corners of the screen
