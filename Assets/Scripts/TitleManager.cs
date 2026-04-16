@@ -5,6 +5,12 @@ public class TitleManager : MonoBehaviour
     [SerializeField]
     private LocalizationManager localizationManager;
 
+    void Awake()
+    {
+        Time.timeScale = 1f;
+        PauseMenu.GameIsPaused = false;
+    }
+
     void Start()
     {
         //localizationManager.Initialize();
@@ -12,6 +18,6 @@ public class TitleManager : MonoBehaviour
 
     void Update()
     {
-        localizationManager.SelfUpdate();
+        //localizationManager.SelfUpdate();
     }
 }

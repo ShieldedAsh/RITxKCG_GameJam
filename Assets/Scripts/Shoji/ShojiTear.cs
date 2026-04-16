@@ -85,11 +85,13 @@ public class ShojiTear : MonoBehaviour
         switch (breakLevel)
         {
             case BreakLevel.NotBreak:
+                AudioManager.Instance.SeHittingShojiScreen.Play();
                 _spriteRenderer.sprite = sprites[0];
                 break;
 
             case BreakLevel.Break:
             case BreakLevel.TrueBreak:
+                AudioManager.Instance.SeHittingShojiScreen.Play();
                 _spriteRenderer.sprite = sprites[1];
                 break;
 

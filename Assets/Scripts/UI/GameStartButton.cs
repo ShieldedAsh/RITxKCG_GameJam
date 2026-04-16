@@ -7,7 +7,16 @@ public class GameStartButton : MonoBehaviour
     void Start()
     {
         Button button = GetComponent<Button>();
-        button.onClick.AddListener(() => AudioManager.Instance.SeGameStart.Play());
+        button.onClick.AddListener(() =>
+        {
+            AudioManager.Instance.SeGameStart.Play();
+
+            Time.timeScale = 1f;
+            PauseMenu.GameIsPaused = false;
+
+            TimerDisplay.timer = 0f;
+            ObjectManager.totalScore = 0;
+        });
     }
 
     // Update is called once per frame
