@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class Benchmarker : MonoBehaviour
 {
+    private int score;
+
     [SerializeField]
     private GameObject sGrade;
     [SerializeField]
@@ -19,27 +21,32 @@ public class Benchmarker : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        if (ObjectManager.totalScore >= 99999)
+        score = ObjectManager.totalScore;
+        Debug.Log("Total score:" + score);
+        Debug.Log("ObjectManager score:" + ObjectManager.totalScore);
+
+        if (score >= 9999)
         {
+            Debug.Log("S grade");
             sGrade.SetActive(true);
             PlayAnim("Surprised");
         }
-        else if (ObjectManager.totalScore >= 79999)
+        else if (score >= 7999)
         {
             aGrade.SetActive(true);
             PlayAnim("Laughing");
         }
-        else if (ObjectManager.totalScore >= 59999)
+        else if (score >= 5999)
         {
             bGrade.SetActive(true);
             PlayAnim("Wink");
         }
-        else if (ObjectManager.totalScore >= 39999)
+        else if (score >= 3999)
         {
             cGrade.SetActive(true);
             PlayAnim("Think");
         }
-        else if (ObjectManager.totalScore <= 20000)
+        else
         {
             dGrade.SetActive(true);
             PlayAnim("Angry");
