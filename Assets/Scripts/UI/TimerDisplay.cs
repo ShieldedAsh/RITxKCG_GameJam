@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
 using TMPro;
 using System;
 
@@ -24,9 +25,8 @@ public class TimerDisplay : MonoBehaviour
     {
         if (timer >= 90f)
         {
-            AudioManager.Instance.PlayTimeUp();
-            SceneManager.LoadScene("ResultsScene");
             timer = 0f;
+            StartCoroutine(PlaySoundAndWait(AudioManager.Instance.SeTimeUp));
         }
         
         timer += Time.deltaTime;
@@ -37,5 +37,13 @@ public class TimerDisplay : MonoBehaviour
     {
         TimeSpan ts = TimeSpan.FromSeconds(time);
         return string.Format("{0:00}:{1:00}", (int)ts.TotalSeconds, ts.Milliseconds / 10);
+    }
+
+    IEnumerator PlaySoundAndWait(AudioSource source)
+    {
+        source.Play();
+        yield return new WaitForSecondsRealtime(source.clip.length / 3f);
+
+        SceneManager.LoadScene("ResultsScene");
     }
 }
