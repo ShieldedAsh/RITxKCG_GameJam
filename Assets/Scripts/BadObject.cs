@@ -7,7 +7,7 @@ public class BadObject : ObjectBase
     {
         if (Mouse.current.leftButton.isPressed)
         {
-            AudioManager.Instance.SeFailedHit.Play();
+            AudioManager.Instance.PlayFailedHit();
             ObjectManager.totalScore += objScore;
             Debug.Log(ObjectManager.totalScore);
             ObjectManager.objects.Remove(this.gameObject);

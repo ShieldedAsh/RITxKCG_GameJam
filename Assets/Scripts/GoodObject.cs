@@ -7,7 +7,7 @@ public class GoodObject : ObjectBase
     {
         if (Mouse.current.leftButton.isPressed)
         {
-            AudioManager.Instance.SeTargetHit.Play();
+            AudioManager.Instance.PlayTargetHit();
             ObjectManager.totalScore += objScore;
             Debug.Log(ObjectManager.totalScore);
             ObjectManager.objects.Remove(this.gameObject);

@@ -1937,7 +1937,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8729941607a10ee47ad4cd82e00b9474, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ComboCounter
-  _countUI: {fileID: 1833173620}
+  _countUI: {fileID: 0}
   _resetTable:
   - checkCombo: 0
     resetTime: 5

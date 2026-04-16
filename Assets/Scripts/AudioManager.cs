@@ -17,6 +17,7 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private AudioSource seMenuOpen;
     [SerializeField] private AudioSource seGameStart;
     [SerializeField] private AudioSource sePause;
+    [SerializeField] private AudioSource seCombo;
 
     [Header("BGM")]
     [SerializeField] private AudioSource bgmTitle;
@@ -24,12 +25,12 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private AudioSource bgmResults;
 
     //Getters/Setters
-    public AudioSource SeTargetHit { get { return seTargetHit; } }
-    public AudioSource SeFailedHit { get { return seFailedHit; } }
     public AudioSource SeHittingShojiScreen { get { return seHittingShojiScreen; } }
     public AudioSource SeGameStart { get { return seGameStart; } }
 
     public AudioSource SeShapeCompletion { get { return seShapeCompletion; } }
+
+    public AudioSource SeCombo { get { return seCombo; } }
 
     public AudioSource SePause { get { return sePause; } }
 
@@ -97,6 +98,14 @@ public class AudioManager : MonoBehaviour
     {
         if (seGameStart != null)
             seGameStart.Play();
+    }
+    public void PlayTargetHit()
+    {
+        seTargetHit.PlayOneShot(seTargetHit.clip);
+    }
+    public void PlayFailedHit()
+    {
+        seFailedHit.PlayOneShot(seFailedHit.clip);
     }
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)

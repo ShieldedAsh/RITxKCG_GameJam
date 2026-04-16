@@ -64,6 +64,11 @@ public class ComboCounter : MonoBehaviour
     {
         _comboCount++;
 
+        if (_comboCount % 5 == 0)
+        {
+            AudioManager.Instance.SeCombo.Play();
+        }
+
         timer = GetResetTime();
         resetTime = timer;
 
