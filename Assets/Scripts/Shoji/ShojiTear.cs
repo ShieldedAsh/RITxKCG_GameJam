@@ -66,6 +66,7 @@ public class ShojiTear : MonoBehaviour
     /// </summary>
     public void SetBreakLevelBreak()
     {
+        AudioManager.Instance.SeHittingShojiScreen.Play();
         breakLevel = BreakLevel.Break;
     }
 

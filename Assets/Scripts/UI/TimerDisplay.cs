@@ -24,6 +24,7 @@ public class TimerDisplay : MonoBehaviour
     {
         if (timer >= 90f)
         {
+            AudioManager.Instance.PlayTimeUp();
             SceneManager.LoadScene("ResultsScene");
             timer = 0f;
         }

@@ -21,10 +21,13 @@ public class PauseMenu : MonoBehaviour
         {
             if (GameIsPaused)
             {
+                AudioManager.Instance.BgmMainGame.volume = 1;
                 Resume();
             }
             else
             {
+                AudioManager.Instance.BgmMainGame.volume = 0.25f;
+                AudioManager.Instance.SePause.Play();
                 Pause();
             }
         }
@@ -43,8 +46,6 @@ public class PauseMenu : MonoBehaviour
 
     void Pause()
     {
-        AudioManager.Instance.SePause.Play();
-
         // Make the cursor visible
         Cursor.visible = true;
 

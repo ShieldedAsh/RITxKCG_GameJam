@@ -18,6 +18,7 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private AudioSource seGameStart;
     [SerializeField] private AudioSource sePause;
     [SerializeField] private AudioSource seCombo;
+    [SerializeField] private AudioSource seTimeUp;
 
     [Header("BGM")]
     [SerializeField] private AudioSource bgmTitle;
@@ -33,6 +34,8 @@ public class AudioManager : MonoBehaviour
     public AudioSource SeCombo { get { return seCombo; } }
 
     public AudioSource SePause { get { return sePause; } }
+    public AudioSource SeTimeUp { get { return seTimeUp; } }
+    public AudioSource BgmMainGame { get { return bgmMainGame; } }
 
     private void Awake()
     {
@@ -99,6 +102,12 @@ public class AudioManager : MonoBehaviour
         if (seGameStart != null)
             seGameStart.Play();
     }
+    public void PlayTimeUp()
+    {
+        if (seTimeUp != null)
+            seTimeUp.PlayOneShot(seTimeUp.clip);
+    }
+
     public void PlayTargetHit()
     {
         seTargetHit.PlayOneShot(seTargetHit.clip);
