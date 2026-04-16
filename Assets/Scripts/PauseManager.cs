@@ -21,7 +21,7 @@ public class PauseMenu : MonoBehaviour
         {
             if (GameIsPaused)
             {
-                AudioManager.Instance.BgmMainGame.volume = 1;
+                AudioManager.Instance.BgmMainGame.volume = 0.75f;
                 Resume();
             }
             else

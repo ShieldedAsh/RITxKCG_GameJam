@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class MainGameInit : MonoBehaviour
 {
@@ -9,5 +10,7 @@ public class MainGameInit : MonoBehaviour
 
         TimerDisplay.timer = 0f;
         ObjectManager.totalScore = 0;
+
+        Cursor.lockState = CursorLockMode.Locked;
     }
 }

@@ -77,6 +77,7 @@ public class ShojiManager : MonoBehaviour
         {
             if (CheckPattern(it))
             {
+                AudioManager.Instance.SeShapeCompletion.Play();
                 Debug.Log("ƒpƒ^[ƒ“¬—§");
             }
         }

@@ -8,7 +8,7 @@ public class AudioManager : MonoBehaviour
 {
     public static AudioManager Instance;
 
-    [Header("Sounds")]
+    [Header("Sound Effects")]
     [SerializeField] private AudioSource seShapeCompletion;
     [SerializeField] private AudioSource seFailedHit;
     [SerializeField] private AudioSource seButtonPress;
