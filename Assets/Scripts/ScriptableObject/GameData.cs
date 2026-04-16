@@ -5,6 +5,11 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "GameData", menuName = "Scriptable Objects/GameData")]
 public class GameData : ScriptableObject
 {
+    [Header("ゲーム時間")]
+    [SerializeField]
+    private float gameTime;
+    public float GameTime { get => gameTime; }
+
     [Header("ゲーム開始時の的出現数")]
     [SerializeField]
     private int startTargetNum;

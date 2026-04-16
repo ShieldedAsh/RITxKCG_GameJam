@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: baab53b600f92d743a43f94adbd92d11, type: 3}
   m_Name: GameData
   m_EditorClassIdentifier: Assembly-CSharp::GameData
+  gameTime: 90
   startTargetNum: 1
   targetNumIncreaseInterval: 10
   targetNumIncreaseAmount: 2

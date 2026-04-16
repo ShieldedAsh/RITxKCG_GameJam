@@ -8,6 +8,9 @@ public class TimerDisplay : MonoBehaviour
     public static TimerDisplay Instance;
 
     [SerializeField]
+    private GameData gameData;
+
+    [SerializeField]
     private TMP_Text timerText;
 
     public static float timer = 0f;
@@ -17,18 +20,19 @@ public class TimerDisplay : MonoBehaviour
     private void Awake()
     {
         Instance = this;
+        timer = gameData.GameTime;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (timer >= 90f)
+        if (timer <= 0.0f)
         {
             SceneManager.LoadScene("ResultsScene");
             timer = 0f;
         }
-        
-        timer += Time.deltaTime;
+
+        timer -= Time.deltaTime;
         timerText.text = FormatTime(timer);
     }
 
