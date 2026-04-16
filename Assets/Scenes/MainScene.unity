@@ -7818,7 +7818,7 @@ MonoBehaviour:
   seGameStart: {fileID: 1690317859}
   sePause: {fileID: 1080933273}
   seCombo: {fileID: 577274404}
-  seTimeUp: {fileID: 0}
+  seTimeUp: {fileID: 1422168224}
   bgmTitle: {fileID: 1102882487}
   bgmMainGame: {fileID: 696649116}
   bgmResults: {fileID: 1882344100}
