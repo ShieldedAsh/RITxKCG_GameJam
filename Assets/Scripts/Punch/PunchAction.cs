@@ -49,7 +49,16 @@ public class PunchAction : MonoBehaviour
                 foreach (ObjectBase obj in objectBases)
                 {
                     obj.ClickObject();
-                    _comboCounter.AddCombo();
+                    const int badObjectcount = 3;
+                    if((int)obj.Kind < badObjectcount)
+                    {
+                        _comboCounter.ResetCombo();
+                    }
+                    else
+                    {
+                        _comboCounter.AddCombo();
+                    }
+
                     Debug.Log("点数オブジェクトをヒット");
 
                 }

@@ -99,9 +99,10 @@ public class ComboCounter : MonoBehaviour
     /// <summary>
     /// コンボをリセット
     /// </summary>
-    private void ResetCombo()
+    public void ResetCombo()
     {
         _comboCount = 0;
+        timer = 0;
         UpdateUI();
     }
 
