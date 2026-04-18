@@ -13,7 +13,6 @@ public class MainMenuButton : MonoBehaviour
             Time.timeScale = 1f;
             PauseMenu.GameIsPaused = false;
 
-            TimerDisplay.timer = 0f;
             ObjectManager.totalScore = 0;
 
             Cursor.visible = true;

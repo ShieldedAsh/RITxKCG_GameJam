@@ -8,7 +8,6 @@ public class MainGameInit : MonoBehaviour
         Time.timeScale = 1f;
         PauseMenu.GameIsPaused = false;
 
-        TimerDisplay.timer = 0f;
         ObjectManager.totalScore = 0;
 
         Cursor.lockState = CursorLockMode.Locked;

@@ -14,7 +14,7 @@ public class TimerDisplay : MonoBehaviour
     [SerializeField]
     private TMP_Text timerText;
 
-    public static float timer = 0f;
+    public static float timer;
 
     public float Timer { get { return timer; } set { timer = value; } }
 
