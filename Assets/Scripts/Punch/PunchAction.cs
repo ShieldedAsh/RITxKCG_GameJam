@@ -19,6 +19,8 @@ public class PunchAction : MonoBehaviour
     {
         if (Mouse.current.leftButton.wasPressedThisFrame)
         {
+
+
             Collider2D[] results = Physics2D.OverlapPointAll(punchCollider.bounds.center);
 
             //背景のオブジェクトがヒットしているかどうかを判定するためのフラグ
