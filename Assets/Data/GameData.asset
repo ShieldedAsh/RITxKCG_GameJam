@@ -18,6 +18,7 @@ MonoBehaviour:
   targetNumIncreaseAmount: 2
   targetMaxSpeed: 3
   targetMinSpeed: 1
+  goodTargetSpawnRate: 100
   targetScores:
   - Kind: 0
     Score: -100

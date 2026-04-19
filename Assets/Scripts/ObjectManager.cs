@@ -67,14 +67,14 @@ public class ObjectManager : MonoBehaviour
     /// </summary>
     void SpawnNewObject()
     {
-        //choose between good or bad object
-        int coinflip = Random.Range(0, 2);
+        //choose between good or bad object 1Å`100
+        int coinflip = Random.Range(1, 101);
 
         //choose direction
         //0 is From Left To Right, 1 is From Right to Left, 2 is From Top to Bottom, 3 is from Bottom to Top
         int randomDir = Random.Range(0, 4);
 
-        int objectListSize = coinflip == 0 ? goodObject.Count : badObject.Count;
+        int objectListSize = coinflip <= gameData.GoodTargetSpawnRate ? goodObject.Count : badObject.Count;
 
         int createObjectIndex = Random.Range(0, objectListSize);
 
@@ -97,7 +97,7 @@ public class ObjectManager : MonoBehaviour
                 break;
         }
 
-        GameObject tempObj = coinflip == 0 ?
+        GameObject tempObj = coinflip <= gameData.GoodTargetSpawnRate ?
             Instantiate(goodObject[createObjectIndex], spawnPos, Quaternion.identity) :
             Instantiate(badObject[createObjectIndex], spawnPos, Quaternion.identity);
         tempObj.GetComponent<ObjectMover>().Initialize(moveArea, gameData);
