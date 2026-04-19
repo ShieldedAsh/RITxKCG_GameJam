@@ -60,7 +60,7 @@ public class ObjectBase : MonoBehaviour
         objScore = score;
     }
 
-    public void ClickObject()
+    public virtual void ClickObject()
     {
         ObjectManager.totalScore += objScore;
         Debug.Log(ObjectManager.totalScore);

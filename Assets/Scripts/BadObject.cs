@@ -3,15 +3,9 @@ using UnityEngine.InputSystem;
 
 public class BadObject : ObjectBase
 {
-    private void OnMouseOver()
+    public override void ClickObject()
     {
-        if (Mouse.current.leftButton.isPressed)
-        {
-            AudioManager.Instance.PlayFailedHit();
-            ObjectManager.totalScore += objScore;
-            Debug.Log(ObjectManager.totalScore);
-            ObjectManager.objects.Remove(this.gameObject);
-            Destroy(this.gameObject);
-        }
+        AudioManager.Instance.PlayFailedHit();
+        base.ClickObject();
     }
 }
