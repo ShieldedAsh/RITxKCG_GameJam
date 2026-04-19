@@ -273,7 +273,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GoodObject
   objScore: 5000
-  kind: 9
+  kind: 8
 --- !u!114 &-1127250700781969585
 MonoBehaviour:
   m_ObjectHideFlags: 0

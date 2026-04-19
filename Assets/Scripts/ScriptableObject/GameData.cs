@@ -35,6 +35,11 @@ public class GameData : ScriptableObject
     private float targetMinSpeed;
     public float TargetMinSpeed { get => targetMinSpeed; }
 
+    [Header("良い的の出現率(90の場合90%)")]
+    [SerializeField]
+    private int goodTargetSpawnRate;
+    public int GoodTargetSpawnRate { get => goodTargetSpawnRate; }
+
     [Header("的の種類とスコア")]
     [SerializeField]
     private List<TargetScore> targetScores;
