@@ -67,7 +67,7 @@ public class PunchAction : MonoBehaviour
 
                 shojiTear.SetBreakLevelTrueBreak();
             }
-            else
+            else if(shojiTear.breakLevel == BreakLevel.NotBreak)
             {
                 shojiTear.SetBreakLevelBreak();
             }
