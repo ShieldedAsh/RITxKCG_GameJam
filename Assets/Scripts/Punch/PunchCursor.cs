@@ -9,16 +9,19 @@ public class PunchCursor : MonoBehaviour
     [SerializeField, Range(0, 1)]
     private float sensitivity = 1f;
 
+    GameState gameState;
+
     Vector3 bottomLeft;
     Vector3 topRight;
 
     /// <summary>
     /// èâä˙âª
     /// </summary>
-    public void Initialize()
+    public void Initialize(GameState state)
     {
-        //Cursor.visible = false;
-        Cursor.lockState = CursorLockMode.Locked;
+        gameState = state;
+
+        Cursor.lockState = CursorLockMode.None;
 
         //Get the world coordinates of the bottom-left and top-right corners of the screen
         bottomLeft = Camera.main.ScreenToWorldPoint(new Vector3(0, 0, 0));
@@ -30,6 +33,11 @@ public class PunchCursor : MonoBehaviour
     /// </summary>
     public void SelfUpdate()
     {
+        if(gameState.IsOutPlay())
+        {
+            return;
+        }
+
         Vector3 mouseMoveVec = Mouse.current.delta.ReadValue();
 
         transform.position = ClampToScreen(transform.position + sensitivity * 0.01f * mouseMoveVec);

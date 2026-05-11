@@ -9,6 +9,9 @@ Note: This file might need to undergo separation of responsibilities because the
 public class ObjectManager : MonoBehaviour
 {
     [SerializeField]
+    private GameState gameState; 
+
+    [SerializeField]
     private GameData gameData; //reference to the game data scriptable object
 
     [SerializeField]
@@ -47,6 +50,8 @@ public class ObjectManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (gameState.IsOutPlay()) return;
+
         if (objects.Count < currentTargetMaxNum)
         {
             SpawnNewObject();
