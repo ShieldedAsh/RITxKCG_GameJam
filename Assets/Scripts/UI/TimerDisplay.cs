@@ -17,6 +17,9 @@ public class TimerDisplay : MonoBehaviour
     [SerializeField]
     private TMP_Text timerText;
 
+    [SerializeField]
+    private GameObject siren;
+
     public static float timer;
 
     public float Timer { get { return timer; } set { timer = value; } }
@@ -39,7 +42,7 @@ public class TimerDisplay : MonoBehaviour
         }
         else if(timer <= 3.0f)
         {
-             
+             siren.SetActive(true);
         }
 
             timer -= Time.deltaTime;
