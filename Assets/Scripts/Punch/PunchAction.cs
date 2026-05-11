@@ -10,17 +10,19 @@ public class PunchAction : MonoBehaviour
     [SerializeField]
     private ComboCounter _comboCounter;
 
-    public void Initialize()
-    {
+    GameState gameState;
 
+    public void Initialize(GameState state)
+    {
+        gameState = state;
     }
 
     public void SelfUpdate()
     {
+        if (gameState.IsOutPlay()) return;
+
         if (Mouse.current.leftButton.wasPressedThisFrame)
         {
-
-
             Collider2D[] results = Physics2D.OverlapPointAll(punchCollider.bounds.center);
 
             //背景のオブジェクトがヒットしているかどうかを判定するためのフラグ
@@ -52,7 +54,7 @@ public class PunchAction : MonoBehaviour
                 {
                     obj.ClickObject();
                     const int badObjectcount = 3;
-                    if((int)obj.Kind < badObjectcount)
+                    if ((int)obj.Kind < badObjectcount)
                     {
                         _comboCounter.ResetCombo();
                     }
@@ -67,7 +69,7 @@ public class PunchAction : MonoBehaviour
 
                 shojiTear.SetBreakLevelTrueBreak();
             }
-            else if(shojiTear.breakLevel == BreakLevel.NotBreak)
+            else if (shojiTear.breakLevel == BreakLevel.NotBreak)
             {
                 shojiTear.SetBreakLevelBreak();
             }

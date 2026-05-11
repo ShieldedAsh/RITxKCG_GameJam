@@ -9,6 +9,9 @@ public class TimerDisplay : MonoBehaviour
     public static TimerDisplay Instance;
 
     [SerializeField]
+    private GameState gameState;
+
+    [SerializeField]
     private GameData gameData;
 
     [SerializeField]
@@ -27,13 +30,19 @@ public class TimerDisplay : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (gameState.IsOutPlay()) return;
+
         if (timer <= 0.0f)
         {
             timer = 0f;
             StartCoroutine(PlaySoundAndWait(AudioManager.Instance.SeTimeUp));
         }
+        else if(timer <= 3.0f)
+        {
+             
+        }
 
-        timer -= Time.deltaTime;
+            timer -= Time.deltaTime;
         timerText.text = FormatTime(timer);
     }
 
