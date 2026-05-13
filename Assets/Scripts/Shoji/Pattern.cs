@@ -10,138 +10,34 @@ public class ShojiPattern
     /// </summary>
     public void InitializePatterns()
     {
-        // \š
+        // ‰¡‚R
         pattern.Add(new bool[,]
         {
-        { false, true,  false },
-        { true,  true,  true  },
-        { false, true,  false }
+        { true,  true,  true  }
         });
-
-        // ˆê—ñ
-        pattern.Add(new bool[,]{
-            { true },
-            { true },
-            { true },
-            { true },
-            { true }
-        });
-
-        pattern.Add(new bool[,]{
-            {true,true,true,true,true}
-        });
-
-        // Lš
+        
+        // c‚R
         pattern.Add(new bool[,]
         {
-        { true,  false, false },
-        { true,  false, false },
-        { true,  true,  true }
-        });
-
-
-        pattern.Add(new bool[,]{
-        { true, true, true },
-        { true, false, false },
-        { true, false, false }
-        });
-
-        pattern.Add(new bool[,]{
-        { true, true, true },
-        { false, false, true },
-        { false, false, true }
-        });
-
-        pattern.Add(new bool[,]{
-        { false, false, true },
-        { false, false, true },
-        { true,  true,  true }
+            {true },
+            {true }, 
+            {true }
         });
 
         pattern.Add(new bool[,]
         {
-        { true,  false, true  },
-        { false, true,  false },
-        { true,  false, true  }
+            { false,  false,  true  },
+            { false,  true,  false  },
+            { true,  false,  false  }
         });
 
-        // 5x5’†‹ó“´‚Ìƒ_ƒCƒ„
-        pattern.Add(new bool[,]{
-        { false, false, true,  false, false },
-        { false, true,  false, true,  false },
-        { true,  false, false, false, true  },
-        { false, true,  false, true,  false },
-        { false, false, true,  false, false }
+        pattern.Add(new bool[,]
+        {
+            { true,  false,  false  },
+            { false,  true,  false  },
+            { false,  false,  true  }
         });
 
-        // 5x5ƒn[ƒg
-        pattern.Add(new bool[,]{
-        { false, false, true,  false, true,  false, false },
-        { false, true,  false, true,  false, true,  false },
-        { true,  false, false, false, false, false, true  },
-        { false, true,  false, false, false, true,  false },
-        { false, false, true,  false, true,  false, false },
-        { false, false, false, true,  false, false, false }
-        });
-
-        pattern.Add(new bool[,]{
-        { false, false, false, false, true,  false, false },
-        { false, false, true,  false, false, true,  false },
-        { false, true,  false, false, false, false, true  },
-        { true,  false, false, false, false, false, false },
-        { false, true,  false, true,  false, false, false },
-        { false, false, true,  false, true,  false, false },
-        { false, false, false, true,  false, false, false }
-        });
-
-        pattern.Add(new bool[,]{
-        { false, false, false, true,  false, false, false },
-        { false, false, true,  false, true,  false, false },
-        { false, true,  false, false, false, true,  false },
-        { true,  false, false, false, false, false, true  },
-        { false, true,  false, true,  false, true,  false },
-        { false, false, true,  false, true,  false, false },
-        { false, false, false, true,  false, false, false }
-        });
-
-        pattern.Add(new bool[,]{
-        { false, false, true,  false, false, false, false },
-        { false, true,  false, true,  false, false, false },
-        { true,  false, false, false, true,  false, false },
-        { false, false, false, false, false, false, true  },
-        { true,  false, false, false, true,  false, false },
-        { false, true,  false, true,  false, false, false },
-        { false, false, true,  false, false, false, false }
-        });
-
-        // Šç4x4
-
-        pattern.Add(new bool[,]{
-        { true,  false, false, true  },
-        { true,  false, false, true  },
-        { false, false, false, false },
-        { true,  true,  true,  true  }
-        });
-
-        pattern.Add(new bool[,]{
-        { true,  true,  false,  true  },
-        { false, false, false, true  },
-        { false, false, false, true  },
-        { true,  true,  false,  true  }
-        });
-
-        pattern.Add(new bool[,]{
-        { true,  true,  true,  true  },
-        { false, false, false, false },
-        { true,  false, false, true  },
-        { true,  false, false, true  }});
-
-        pattern.Add(new bool[,]{
-        { true,  false,  true,  true  },
-        { true,  false, false, false },
-        { true,  false, false, false },
-        { true,  false,  true,  true  }
-        });
 
     }
 }

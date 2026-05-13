@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_0
+      name: Shoji_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2970
-        width: 654
-        height: 594
+        x: 25
+        y: 2964
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,20 +115,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 927a85852b4913141999ab13a7dae295
-      internalID: 1712608408
+      spriteID: ee6e0e6618c79e2428f94c0052fa6b2b
+      internalID: -270421200
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_1
+      name: Shoji_1
       rect:
         serializedVersion: 2
-        x: 654
-        y: 2970
-        width: 654
-        height: 594
+        x: 672
+        y: 2964
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b33a4ce978d8a7b4db030218c9a43949
-      internalID: 233388797
+      spriteID: 843e571cff429864896702b2c2ad2535
+      internalID: -607380869
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_2
+      name: Shoji_2
       rect:
         serializedVersion: 2
-        x: 1308
-        y: 2970
-        width: 654
-        height: 594
+        x: 1319
+        y: 2964
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,20 +159,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8b9afb7facf9cd4faa1e7cba5dbb63e
-      internalID: 1179871672
+      spriteID: 763da1c364b938e49817bf2825c2c389
+      internalID: 1979248322
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_3
+      name: Shoji_3
       rect:
         serializedVersion: 2
-        x: 1962
-        y: 2970
-        width: 654
-        height: 594
+        x: 1966
+        y: 2964
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,20 +181,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7dc6422037f48e043949bd2772b24fb3
-      internalID: 914157320
+      spriteID: 94f24a9873c8e0a48a466e3f41f6b6d4
+      internalID: -1344944098
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_4
+      name: Shoji_4
       rect:
         serializedVersion: 2
-        x: 2616
-        y: 2970
-        width: 654
-        height: 594
+        x: 2613
+        y: 2964
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,20 +203,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c730f251bbc27145a1d0228e2f01b4f
-      internalID: -1816326762
+      spriteID: e55af22afd0b0a341943a5e11dc4eb7b
+      internalID: 1945725589
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_5
+      name: Shoji_5
       rect:
         serializedVersion: 2
-        x: 3270
-        y: 2970
-        width: 654
-        height: 594
+        x: 3260
+        y: 2964
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,20 +225,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e49f00ea26ab424cbfdae473e4619ce
-      internalID: 1071866251
+      spriteID: 45cf36b6bd4f1e04baca4bdad9f65988
+      internalID: 1853171013
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_6
+      name: Shoji_6
       rect:
         serializedVersion: 2
-        x: 3924
-        y: 2970
-        width: 654
-        height: 594
+        x: 3907
+        y: 2964
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,20 +247,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7fcaca44b85c4a346b0ab5691643e424
-      internalID: -1794778145
+      spriteID: adbebc6c784f9cb46820eeb3e42fe78f
+      internalID: 1773522533
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_7
+      name: Shoji_7
       rect:
         serializedVersion: 2
-        x: 4578
-        y: 2970
-        width: 654
-        height: 594
+        x: 4554
+        y: 2964
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,20 +269,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70de8a166592445418e6c9d49d8cccee
-      internalID: -1698418479
+      spriteID: 34b9e677981634245a3d48eeeaaaf9ac
+      internalID: 1378412473
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_8
+      name: Shoji_8
       rect:
         serializedVersion: 2
-        x: 5232
-        y: 2970
-        width: 654
-        height: 594
+        x: 5201
+        y: 2964
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -291,20 +291,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79e3b4691620817428332151499f94bf
-      internalID: 564363220
+      spriteID: 9bc5b72b142767b40a4c539ef06f7e95
+      internalID: 1051529835
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_9
+      name: Shoji_9
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2376
-        width: 654
-        height: 594
+        x: 25
+        y: 2379
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,20 +313,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bee2a77db52328a4cad61848576c5212
-      internalID: 1430082333
+      spriteID: 9894feff18fd6854fb387f7d7c02117f
+      internalID: 586863192
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_10
+      name: Shoji_10
       rect:
         serializedVersion: 2
-        x: 654
-        y: 2376
-        width: 654
-        height: 594
+        x: 672
+        y: 2379
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -335,20 +335,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d410e997e2f15364092c1cbfd849547f
-      internalID: -1212346878
+      spriteID: 9a207052d3a60b848b9fbd724f1ee31d
+      internalID: -304950268
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_11
+      name: Shoji_11
       rect:
         serializedVersion: 2
-        x: 1308
-        y: 2376
-        width: 654
-        height: 594
+        x: 1319
+        y: 2379
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -357,20 +357,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f92705414a0f92f4fb7a3a899db301e3
-      internalID: -737783875
+      spriteID: 9a7e38fd75ec6c84db5415fc7b725837
+      internalID: 563529100
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_12
+      name: Shoji_12
       rect:
         serializedVersion: 2
-        x: 1962
-        y: 2376
-        width: 654
-        height: 594
+        x: 1966
+        y: 2379
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -379,20 +379,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f6b919e6f107e84f9dd6d150998aa50
-      internalID: 735319524
+      spriteID: 1655cb38027f8e441a594744796ee01a
+      internalID: 606701247
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_13
+      name: Shoji_13
       rect:
         serializedVersion: 2
-        x: 2616
-        y: 2376
-        width: 654
-        height: 594
+        x: 2613
+        y: 2379
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -401,20 +401,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0cf5d5b16c624ec4588711b798fa6af8
-      internalID: -1762070970
+      spriteID: 07cdeffced40f4a419a3d0dffc5e9ac3
+      internalID: -1528698348
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_14
+      name: Shoji_14
       rect:
         serializedVersion: 2
-        x: 3270
-        y: 2376
-        width: 654
-        height: 594
+        x: 3260
+        y: 2379
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -423,20 +423,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ef4de970021e7e4e923d394ce6974d2
-      internalID: 1641877359
+      spriteID: 4f288e9ad98f31244924ad1f32df02f0
+      internalID: -290462882
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_15
+      name: Shoji_15
       rect:
         serializedVersion: 2
-        x: 3924
-        y: 2376
-        width: 654
-        height: 594
+        x: 3907
+        y: 2379
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -445,20 +445,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e85a2c82bfa4164d8f849fc84032c17
-      internalID: -1500465755
+      spriteID: 3472ba48f11d1374f9aac8a3c4636114
+      internalID: -991783529
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_16
+      name: Shoji_16
       rect:
         serializedVersion: 2
-        x: 4578
-        y: 2376
-        width: 654
-        height: 594
+        x: 4554
+        y: 2379
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -467,20 +467,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 796f523226a8e9f4f92eb2e3dc7130bf
-      internalID: -2129794193
+      spriteID: 836930f5bdc1dc44eaa0abb2a748690f
+      internalID: -1486577777
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_17
+      name: Shoji_17
       rect:
         serializedVersion: 2
-        x: 5232
-        y: 2376
-        width: 654
-        height: 594
+        x: 5201
+        y: 2379
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -489,20 +489,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6005dd76d3ceff14ba44207540b6b811
-      internalID: -2089243960
+      spriteID: eeaa68970058ee6438a4cf72e08e0706
+      internalID: -1641865865
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_18
+      name: Shoji_18
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1782
-        width: 654
-        height: 594
+        x: 25
+        y: 1794
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -511,20 +511,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce08bd97c81fb0b41b12dd6d643eb0ab
-      internalID: -1290454325
+      spriteID: 96c7d77f7e1e8e64e99d4594b9532bc1
+      internalID: -1748803169
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_19
+      name: Shoji_19
       rect:
         serializedVersion: 2
-        x: 654
-        y: 1782
-        width: 654
-        height: 594
+        x: 672
+        y: 1794
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -533,20 +533,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09ff751faabf1ba4aaf991fb633d40df
-      internalID: -945564914
+      spriteID: 4b1de58a95435ec48839844931c6a95a
+      internalID: 534760334
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_20
+      name: Shoji_20
       rect:
         serializedVersion: 2
-        x: 1308
-        y: 1782
-        width: 654
-        height: 594
+        x: 1319
+        y: 1794
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -555,20 +555,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6161beadac2e8c42826b50b25141935
-      internalID: -703504033
+      spriteID: 953a44f8de47e054d887511819f37e7b
+      internalID: -1005689712
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_21
+      name: Shoji_21
       rect:
         serializedVersion: 2
-        x: 1962
-        y: 1782
-        width: 654
-        height: 594
+        x: 1966
+        y: 1794
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -577,20 +577,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dfd4cd932387216458d8e2cb4a9a4557
-      internalID: 198665926
+      spriteID: 75f747c3ed7dc2e46ac4ee6869250763
+      internalID: 389590205
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_22
+      name: Shoji_22
       rect:
         serializedVersion: 2
-        x: 2616
-        y: 1782
-        width: 654
-        height: 594
+        x: 2613
+        y: 1794
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -599,20 +599,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f749128990ddb1446b5df7d47522e74d
-      internalID: -1791364765
+      spriteID: 18d5675e525d370488e5957c5bcf239b
+      internalID: 1750699573
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_23
+      name: Shoji_23
       rect:
         serializedVersion: 2
-        x: 3270
-        y: 1782
-        width: 654
-        height: 594
+        x: 3260
+        y: 1794
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -621,20 +621,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c58cb165683c81c47b73edc3066866a0
-      internalID: 531213937
+      spriteID: ce4f9508111851541a18dd906d6309a9
+      internalID: -590277922
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_24
+      name: Shoji_24
       rect:
         serializedVersion: 2
-        x: 3924
-        y: 1782
-        width: 654
-        height: 594
+        x: 3907
+        y: 1794
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -643,20 +643,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dcaffdb6a2d01ea459096ebfc9d1af75
-      internalID: 1223512790
+      spriteID: fae9983eb8e613149b3f00ba499a103c
+      internalID: -1787516503
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_25
+      name: Shoji_25
       rect:
         serializedVersion: 2
-        x: 4578
-        y: 1782
-        width: 654
-        height: 594
+        x: 4554
+        y: 1794
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -665,20 +665,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09612254b6232c1408d66d1d576db20a
-      internalID: 1418097670
+      spriteID: a80c12a9f214fdb48b7770631d3e00d8
+      internalID: -792745492
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_26
+      name: Shoji_26
       rect:
         serializedVersion: 2
-        x: 5232
-        y: 1782
-        width: 654
-        height: 594
+        x: 5201
+        y: 1794
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -687,20 +687,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 980206e7854760642a9cbdc8e5cd6e9d
-      internalID: -1488314959
+      spriteID: 0be0cdf527bd1af4a87966560788e7ec
+      internalID: -1412210272
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_27
+      name: Shoji_27
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1188
-        width: 654
-        height: 594
+        x: 25
+        y: 1209
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -709,20 +709,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36ea34fc3e74de943a3706cdb1f18b9c
-      internalID: 64599248
+      spriteID: efc40d47fc165104ba3f159d74d52f01
+      internalID: 763477345
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_28
+      name: Shoji_28
       rect:
         serializedVersion: 2
-        x: 654
-        y: 1188
-        width: 654
-        height: 594
+        x: 672
+        y: 1209
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -731,20 +731,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96e233f0b9e04174fb6e7382a93e3ac6
-      internalID: -115170641
+      spriteID: 4dc584d475a6afc44b3eafd12aeb1a5c
+      internalID: -1539156155
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_29
+      name: Shoji_29
       rect:
         serializedVersion: 2
-        x: 1308
-        y: 1188
-        width: 654
-        height: 594
+        x: 1319
+        y: 1209
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -753,20 +753,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a7fdf4cdb9b3474d9287fa0099b5832
-      internalID: -2093977855
+      spriteID: 4989d3cd7cfa05d4e9587f54ff0b8897
+      internalID: -452907174
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_30
+      name: Shoji_30
       rect:
         serializedVersion: 2
-        x: 1962
-        y: 1188
-        width: 654
-        height: 594
+        x: 1966
+        y: 1209
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -775,20 +775,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df8dec933a4a94141a89a583eff28aa5
-      internalID: 1829179273
+      spriteID: 0f205bd608ddbc2469dcf83eb51f8c54
+      internalID: -208613003
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_31
+      name: Shoji_31
       rect:
         serializedVersion: 2
-        x: 2616
-        y: 1188
-        width: 654
-        height: 594
+        x: 2613
+        y: 1209
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -797,20 +797,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9223cffd5277f244c88e86a99386735b
-      internalID: -1374884235
+      spriteID: faf1aaad835fe6240b0885ed019cc481
+      internalID: -1481773453
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_32
+      name: Shoji_32
       rect:
         serializedVersion: 2
-        x: 3270
-        y: 1188
-        width: 654
-        height: 594
+        x: 3260
+        y: 1209
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -819,20 +819,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64ae9d4d5b3983f43ad605adc01abb01
-      internalID: -802923744
+      spriteID: 980e3e59bfef1564d83ba29881fb2abd
+      internalID: -360589849
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_33
+      name: Shoji_33
       rect:
         serializedVersion: 2
-        x: 3924
-        y: 1188
-        width: 654
-        height: 594
+        x: 3907
+        y: 1209
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -841,20 +841,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 083c227ba7a9959489de698192ea32cf
-      internalID: -1199593973
+      spriteID: 67005efa7abe05e48a0d05d7b84196b0
+      internalID: -553740350
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_34
+      name: Shoji_34
       rect:
         serializedVersion: 2
-        x: 4578
-        y: 1188
-        width: 654
-        height: 594
+        x: 4554
+        y: 1209
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -863,20 +863,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ddf42f0b468ac214f8d104f040b0d251
-      internalID: 1139835578
+      spriteID: 6a2402495b0aac04591e93a718593411
+      internalID: 810808067
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_35
+      name: Shoji_35
       rect:
         serializedVersion: 2
-        x: 5232
-        y: 1188
-        width: 654
-        height: 594
+        x: 5201
+        y: 1209
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -885,20 +885,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 390ad15f520d2e84e92ce90c5fb58934
-      internalID: 1802284369
+      spriteID: 4ea5473bd52c6be4fa29c00dcf2f1d97
+      internalID: 574448814
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_36
+      name: Shoji_36
       rect:
         serializedVersion: 2
-        x: 0
-        y: 594
-        width: 654
-        height: 594
+        x: 25
+        y: 624
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -907,20 +907,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85ad52d0ec614da49aa0577d9db8ba8f
-      internalID: 756448754
+      spriteID: 65ae3ae84b6d6634394b3df335260eda
+      internalID: 1742013550
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_37
+      name: Shoji_37
       rect:
         serializedVersion: 2
-        x: 654
-        y: 594
-        width: 654
-        height: 594
+        x: 672
+        y: 624
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -929,20 +929,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ddc0e7090f74ab4dad775460189a6ee
-      internalID: -1957709794
+      spriteID: 3d8b34ec98b3535498e74c3d86060865
+      internalID: 699735179
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_38
+      name: Shoji_38
       rect:
         serializedVersion: 2
-        x: 1308
-        y: 594
-        width: 654
-        height: 594
+        x: 1319
+        y: 624
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -951,20 +951,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee7a3777848c6d04ab9f9be523a754cb
-      internalID: -34122114
+      spriteID: abd3a5f2930fee5498acfdb3a623a8ca
+      internalID: -1926002588
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_39
+      name: Shoji_39
       rect:
         serializedVersion: 2
-        x: 1962
-        y: 594
-        width: 654
-        height: 594
+        x: 1966
+        y: 624
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -973,20 +973,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a196f3d7e1a68d346a193ce2d7e2c1b4
-      internalID: 2118161487
+      spriteID: 6a04f5122310e0a4389899d63093c1da
+      internalID: -1919460640
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_40
+      name: Shoji_40
       rect:
         serializedVersion: 2
-        x: 2616
-        y: 594
-        width: 654
-        height: 594
+        x: 2613
+        y: 624
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -995,20 +995,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 654c8774435a2de4c90d2cda9281f203
-      internalID: 336433615
+      spriteID: 981be10070f2d42448f77234f90ebce5
+      internalID: 869117289
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_41
+      name: Shoji_41
       rect:
         serializedVersion: 2
-        x: 3270
-        y: 594
-        width: 654
-        height: 594
+        x: 3260
+        y: 624
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1017,20 +1017,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7788d74ea79b7fb4f9254c1d502ea893
-      internalID: -1891459393
+      spriteID: 0805597904f3e8e48a28aac59b93161c
+      internalID: -119057167
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_42
+      name: Shoji_42
       rect:
         serializedVersion: 2
-        x: 3924
-        y: 594
-        width: 654
-        height: 594
+        x: 3907
+        y: 624
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1039,20 +1039,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc519bf87a09f4d4da3e9fb7ccaed3f4
-      internalID: -1971719770
+      spriteID: d0327881ad42c5a489b9591dc4c77356
+      internalID: -632170801
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_43
+      name: Shoji_43
       rect:
         serializedVersion: 2
-        x: 4578
-        y: 594
-        width: 654
-        height: 594
+        x: 4554
+        y: 624
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1061,20 +1061,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 007a6815e9585dd4c8560d2a53666f39
-      internalID: -1782080969
+      spriteID: 03de5db69e1fd214d87c81a21b7ace25
+      internalID: 1692971417
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_44
+      name: Shoji_44
       rect:
         serializedVersion: 2
-        x: 5232
-        y: 594
-        width: 654
-        height: 594
+        x: 5201
+        y: 624
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1083,20 +1083,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: afffe9b90997630419a97827f9e87985
-      internalID: -865024720
+      spriteID: 0789eac833661b349895bc75354fc4ce
+      internalID: -1776138107
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_45
+      name: Shoji_45
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 654
-        height: 594
+        x: 25
+        y: 39
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1105,20 +1105,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec61fc6f87a164e42809eea4a4c1e6ac
-      internalID: -76124946
+      spriteID: 031253d49b541864db83274a2783f189
+      internalID: -26998502
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_46
+      name: Shoji_46
       rect:
         serializedVersion: 2
-        x: 654
-        y: 0
-        width: 654
-        height: 594
+        x: 672
+        y: 39
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1127,20 +1127,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56422acfc8de5a547beb0109f49edb83
-      internalID: -1471469015
+      spriteID: e53b1535b1cc03648a74c976e1281e5b
+      internalID: 545055043
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_47
+      name: Shoji_47
       rect:
         serializedVersion: 2
-        x: 1308
-        y: 0
-        width: 654
-        height: 594
+        x: 1319
+        y: 39
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1149,20 +1149,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76bcb20f557df6644b25b7ee1b6bcbb5
-      internalID: 1709545867
+      spriteID: 2824a687e985ac446a0ec9b06e1d3419
+      internalID: -1323527540
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_48
+      name: Shoji_48
       rect:
         serializedVersion: 2
-        x: 1962
-        y: 0
-        width: 654
-        height: 594
+        x: 1966
+        y: 39
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1171,20 +1171,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5974dea63c900b34590f21def2940452
-      internalID: -1933116260
+      spriteID: 209a7b76ba000034c8191c12f7047c26
+      internalID: 2099795138
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_49
+      name: Shoji_49
       rect:
         serializedVersion: 2
-        x: 2616
-        y: 0
-        width: 654
-        height: 594
+        x: 2613
+        y: 39
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1193,20 +1193,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 298b232f951241d4d922c5a216ef534f
-      internalID: -994014109
+      spriteID: f1c8a63faa956ee47a8fbab0eb9892f8
+      internalID: -1846683420
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_50
+      name: Shoji_50
       rect:
         serializedVersion: 2
-        x: 3270
-        y: 0
-        width: 654
-        height: 594
+        x: 3260
+        y: 39
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1215,20 +1215,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82030d437305aa343b339addd9c80d3a
-      internalID: -293967715
+      spriteID: 45ef892f6a464664d884f3ddd3d28309
+      internalID: -771513290
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_51
+      name: Shoji_51
       rect:
         serializedVersion: 2
-        x: 3924
-        y: 0
-        width: 654
-        height: 594
+        x: 3907
+        y: 39
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1237,20 +1237,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2ba0d88a8533e14bbd19077496c278b
-      internalID: -1983530539
+      spriteID: c198aded20bccf64b98d484b32ca6efb
+      internalID: 1834372362
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_52
+      name: Shoji_52
       rect:
         serializedVersion: 2
-        x: 4578
-        y: 0
-        width: 654
-        height: 594
+        x: 4554
+        y: 39
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1259,20 +1259,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f34777260fe9fe040adc41e6404e475e
-      internalID: -1138763489
+      spriteID: e44f93ecf9ee9ac4db6cbf192ca73712
+      internalID: -2126120566
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shoji-walll-layers_shoji-wall 1_53
+      name: Shoji_53
       rect:
         serializedVersion: 2
-        x: 5232
-        y: 0
-        width: 654
-        height: 594
+        x: 5201
+        y: 39
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1281,8 +1281,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21586f854f5b08a46a89aa5642ae393c
-      internalID: -1411450236
+      spriteID: e388298fded89af42a0b6036168c48a4
+      internalID: 746942568
       vertices: []
       indices: 
       edges: []
@@ -1301,62 +1301,62 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":9.0,"y":6.0},"gridSpriteSize":{"x":654.0,"y":594.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":647.0,"y":585.0},"gridSpriteOffset":{"x":25.0,"y":15.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      shoji-walll-layers_shoji-wall 1_0: 1712608408
-      shoji-walll-layers_shoji-wall 1_1: 233388797
-      shoji-walll-layers_shoji-wall 1_10: -1212346878
-      shoji-walll-layers_shoji-wall 1_11: -737783875
-      shoji-walll-layers_shoji-wall 1_12: 735319524
-      shoji-walll-layers_shoji-wall 1_13: -1762070970
-      shoji-walll-layers_shoji-wall 1_14: 1641877359
-      shoji-walll-layers_shoji-wall 1_15: -1500465755
-      shoji-walll-layers_shoji-wall 1_16: -2129794193
-      shoji-walll-layers_shoji-wall 1_17: -2089243960
-      shoji-walll-layers_shoji-wall 1_18: -1290454325
-      shoji-walll-layers_shoji-wall 1_19: -945564914
-      shoji-walll-layers_shoji-wall 1_2: 1179871672
-      shoji-walll-layers_shoji-wall 1_20: -703504033
-      shoji-walll-layers_shoji-wall 1_21: 198665926
-      shoji-walll-layers_shoji-wall 1_22: -1791364765
-      shoji-walll-layers_shoji-wall 1_23: 531213937
-      shoji-walll-layers_shoji-wall 1_24: 1223512790
-      shoji-walll-layers_shoji-wall 1_25: 1418097670
-      shoji-walll-layers_shoji-wall 1_26: -1488314959
-      shoji-walll-layers_shoji-wall 1_27: 64599248
-      shoji-walll-layers_shoji-wall 1_28: -115170641
-      shoji-walll-layers_shoji-wall 1_29: -2093977855
-      shoji-walll-layers_shoji-wall 1_3: 914157320
-      shoji-walll-layers_shoji-wall 1_30: 1829179273
-      shoji-walll-layers_shoji-wall 1_31: -1374884235
-      shoji-walll-layers_shoji-wall 1_32: -802923744
-      shoji-walll-layers_shoji-wall 1_33: -1199593973
-      shoji-walll-layers_shoji-wall 1_34: 1139835578
-      shoji-walll-layers_shoji-wall 1_35: 1802284369
-      shoji-walll-layers_shoji-wall 1_36: 756448754
-      shoji-walll-layers_shoji-wall 1_37: -1957709794
-      shoji-walll-layers_shoji-wall 1_38: -34122114
-      shoji-walll-layers_shoji-wall 1_39: 2118161487
-      shoji-walll-layers_shoji-wall 1_4: -1816326762
-      shoji-walll-layers_shoji-wall 1_40: 336433615
-      shoji-walll-layers_shoji-wall 1_41: -1891459393
-      shoji-walll-layers_shoji-wall 1_42: -1971719770
-      shoji-walll-layers_shoji-wall 1_43: -1782080969
-      shoji-walll-layers_shoji-wall 1_44: -865024720
-      shoji-walll-layers_shoji-wall 1_45: -76124946
-      shoji-walll-layers_shoji-wall 1_46: -1471469015
-      shoji-walll-layers_shoji-wall 1_47: 1709545867
-      shoji-walll-layers_shoji-wall 1_48: -1933116260
-      shoji-walll-layers_shoji-wall 1_49: -994014109
-      shoji-walll-layers_shoji-wall 1_5: 1071866251
-      shoji-walll-layers_shoji-wall 1_50: -293967715
-      shoji-walll-layers_shoji-wall 1_51: -1983530539
-      shoji-walll-layers_shoji-wall 1_52: -1138763489
-      shoji-walll-layers_shoji-wall 1_53: -1411450236
-      shoji-walll-layers_shoji-wall 1_6: -1794778145
-      shoji-walll-layers_shoji-wall 1_7: -1698418479
-      shoji-walll-layers_shoji-wall 1_8: 564363220
-      shoji-walll-layers_shoji-wall 1_9: 1430082333
+      Shoji_0: -270421200
+      Shoji_1: -607380869
+      Shoji_10: -304950268
+      Shoji_11: 563529100
+      Shoji_12: 606701247
+      Shoji_13: -1528698348
+      Shoji_14: -290462882
+      Shoji_15: -991783529
+      Shoji_16: -1486577777
+      Shoji_17: -1641865865
+      Shoji_18: -1748803169
+      Shoji_19: 534760334
+      Shoji_2: 1979248322
+      Shoji_20: -1005689712
+      Shoji_21: 389590205
+      Shoji_22: 1750699573
+      Shoji_23: -590277922
+      Shoji_24: -1787516503
+      Shoji_25: -792745492
+      Shoji_26: -1412210272
+      Shoji_27: 763477345
+      Shoji_28: -1539156155
+      Shoji_29: -452907174
+      Shoji_3: -1344944098
+      Shoji_30: -208613003
+      Shoji_31: -1481773453
+      Shoji_32: -360589849
+      Shoji_33: -553740350
+      Shoji_34: 810808067
+      Shoji_35: 574448814
+      Shoji_36: 1742013550
+      Shoji_37: 699735179
+      Shoji_38: -1926002588
+      Shoji_39: -1919460640
+      Shoji_4: 1945725589
+      Shoji_40: 869117289
+      Shoji_41: -119057167
+      Shoji_42: -632170801
+      Shoji_43: 1692971417
+      Shoji_44: -1776138107
+      Shoji_45: -26998502
+      Shoji_46: 545055043
+      Shoji_47: -1323527540
+      Shoji_48: 2099795138
+      Shoji_49: -1846683420
+      Shoji_5: 1853171013
+      Shoji_50: -771513290
+      Shoji_51: 1834372362
+      Shoji_52: -2126120566
+      Shoji_53: 746942568
+      Shoji_6: 1773522533
+      Shoji_7: 1378412473
+      Shoji_8: 1051529835
+      Shoji_9: 586863192
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

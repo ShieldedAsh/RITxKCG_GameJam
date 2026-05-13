@@ -6000,7 +6000,7 @@ MonoBehaviour:
   _createHeight: 6
   _xSpacing: 1.456
   _ySpacing: 1.26
-  _startPosition: {x: -1.75, y: -1.9, z: 0}
+  _startPosition: {x: -1.8, y: -1.85, z: 0}
   _shojiPrefab: {fileID: 6491869188015658585, guid: d4a47d682325ca54b932b967ebf31891, type: 3}
   _lightManager: {fileID: 211838215}
   _sprites: []
@@ -6574,7 +6574,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 1
-  m_Size: {x: 13.089008, y: 7.620236}
+  m_Size: {x: 13.2, y: 7.64}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -6588,7 +6588,7 @@ Transform:
   m_GameObject: {fileID: 1430264864}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.024907973, y: -1.1886945, z: 0}
+  m_LocalPosition: {x: 0, y: -1.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
