@@ -116,10 +116,10 @@ TextureImporter:
       name: BreakShoji_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2970
-        width: 654
-        height: 594
+        x: 25
+        y: 2954
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -138,10 +138,10 @@ TextureImporter:
       name: BreakShoji_1
       rect:
         serializedVersion: 2
-        x: 654
-        y: 2970
-        width: 654
-        height: 594
+        x: 672
+        y: 2954
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,10 +160,10 @@ TextureImporter:
       name: BreakShoji_2
       rect:
         serializedVersion: 2
-        x: 1308
-        y: 2970
-        width: 654
-        height: 594
+        x: 1319
+        y: 2954
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,10 +182,10 @@ TextureImporter:
       name: BreakShoji_3
       rect:
         serializedVersion: 2
-        x: 1962
-        y: 2970
-        width: 654
-        height: 594
+        x: 1966
+        y: 2954
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,10 +204,10 @@ TextureImporter:
       name: BreakShoji_4
       rect:
         serializedVersion: 2
-        x: 2616
-        y: 2970
-        width: 654
-        height: 594
+        x: 2613
+        y: 2954
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,10 +226,10 @@ TextureImporter:
       name: BreakShoji_5
       rect:
         serializedVersion: 2
-        x: 3270
-        y: 2970
-        width: 654
-        height: 594
+        x: 3260
+        y: 2954
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,10 +248,10 @@ TextureImporter:
       name: BreakShoji_6
       rect:
         serializedVersion: 2
-        x: 3924
-        y: 2970
-        width: 654
-        height: 594
+        x: 3907
+        y: 2954
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,10 +270,10 @@ TextureImporter:
       name: BreakShoji_7
       rect:
         serializedVersion: 2
-        x: 4578
-        y: 2970
-        width: 654
-        height: 594
+        x: 4554
+        y: 2954
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,10 +292,10 @@ TextureImporter:
       name: BreakShoji_8
       rect:
         serializedVersion: 2
-        x: 5232
-        y: 2970
-        width: 654
-        height: 594
+        x: 5201
+        y: 2954
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -314,10 +314,10 @@ TextureImporter:
       name: BreakShoji_9
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2376
-        width: 654
-        height: 594
+        x: 25
+        y: 2369
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -336,10 +336,10 @@ TextureImporter:
       name: BreakShoji_10
       rect:
         serializedVersion: 2
-        x: 654
-        y: 2376
-        width: 654
-        height: 594
+        x: 672
+        y: 2369
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -358,10 +358,10 @@ TextureImporter:
       name: BreakShoji_11
       rect:
         serializedVersion: 2
-        x: 1308
-        y: 2376
-        width: 654
-        height: 594
+        x: 1319
+        y: 2369
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -380,10 +380,10 @@ TextureImporter:
       name: BreakShoji_12
       rect:
         serializedVersion: 2
-        x: 1962
-        y: 2376
-        width: 654
-        height: 594
+        x: 1966
+        y: 2369
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -402,10 +402,10 @@ TextureImporter:
       name: BreakShoji_13
       rect:
         serializedVersion: 2
-        x: 2616
-        y: 2376
-        width: 654
-        height: 594
+        x: 2613
+        y: 2369
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -424,10 +424,10 @@ TextureImporter:
       name: BreakShoji_14
       rect:
         serializedVersion: 2
-        x: 3270
-        y: 2376
-        width: 654
-        height: 594
+        x: 3260
+        y: 2369
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -446,10 +446,10 @@ TextureImporter:
       name: BreakShoji_15
       rect:
         serializedVersion: 2
-        x: 3924
-        y: 2376
-        width: 654
-        height: 594
+        x: 3907
+        y: 2369
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -468,10 +468,10 @@ TextureImporter:
       name: BreakShoji_16
       rect:
         serializedVersion: 2
-        x: 4578
-        y: 2376
-        width: 654
-        height: 594
+        x: 4554
+        y: 2369
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -490,10 +490,10 @@ TextureImporter:
       name: BreakShoji_17
       rect:
         serializedVersion: 2
-        x: 5232
-        y: 2376
-        width: 654
-        height: 594
+        x: 5201
+        y: 2369
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -512,10 +512,10 @@ TextureImporter:
       name: BreakShoji_18
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1782
-        width: 654
-        height: 594
+        x: 25
+        y: 1784
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -534,10 +534,10 @@ TextureImporter:
       name: BreakShoji_19
       rect:
         serializedVersion: 2
-        x: 654
-        y: 1782
-        width: 654
-        height: 594
+        x: 672
+        y: 1784
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -556,10 +556,10 @@ TextureImporter:
       name: BreakShoji_20
       rect:
         serializedVersion: 2
-        x: 1308
-        y: 1782
-        width: 654
-        height: 594
+        x: 1319
+        y: 1784
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -578,10 +578,10 @@ TextureImporter:
       name: BreakShoji_21
       rect:
         serializedVersion: 2
-        x: 1962
-        y: 1782
-        width: 654
-        height: 594
+        x: 1966
+        y: 1784
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -600,10 +600,10 @@ TextureImporter:
       name: BreakShoji_22
       rect:
         serializedVersion: 2
-        x: 2616
-        y: 1782
-        width: 654
-        height: 594
+        x: 2613
+        y: 1784
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -622,10 +622,10 @@ TextureImporter:
       name: BreakShoji_23
       rect:
         serializedVersion: 2
-        x: 3270
-        y: 1782
-        width: 654
-        height: 594
+        x: 3260
+        y: 1784
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -644,10 +644,10 @@ TextureImporter:
       name: BreakShoji_24
       rect:
         serializedVersion: 2
-        x: 3924
-        y: 1782
-        width: 654
-        height: 594
+        x: 3907
+        y: 1784
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -666,10 +666,10 @@ TextureImporter:
       name: BreakShoji_25
       rect:
         serializedVersion: 2
-        x: 4578
-        y: 1782
-        width: 654
-        height: 594
+        x: 4554
+        y: 1784
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -688,10 +688,10 @@ TextureImporter:
       name: BreakShoji_26
       rect:
         serializedVersion: 2
-        x: 5232
-        y: 1782
-        width: 654
-        height: 594
+        x: 5201
+        y: 1784
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -710,10 +710,10 @@ TextureImporter:
       name: BreakShoji_27
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1188
-        width: 654
-        height: 594
+        x: 25
+        y: 1199
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -732,10 +732,10 @@ TextureImporter:
       name: BreakShoji_28
       rect:
         serializedVersion: 2
-        x: 654
-        y: 1188
-        width: 654
-        height: 594
+        x: 672
+        y: 1199
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -754,10 +754,10 @@ TextureImporter:
       name: BreakShoji_29
       rect:
         serializedVersion: 2
-        x: 1308
-        y: 1188
-        width: 654
-        height: 594
+        x: 1319
+        y: 1199
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -776,10 +776,10 @@ TextureImporter:
       name: BreakShoji_30
       rect:
         serializedVersion: 2
-        x: 1962
-        y: 1188
-        width: 654
-        height: 594
+        x: 1966
+        y: 1199
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -798,10 +798,10 @@ TextureImporter:
       name: BreakShoji_31
       rect:
         serializedVersion: 2
-        x: 2616
-        y: 1188
-        width: 654
-        height: 594
+        x: 2613
+        y: 1199
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -820,10 +820,10 @@ TextureImporter:
       name: BreakShoji_32
       rect:
         serializedVersion: 2
-        x: 3270
-        y: 1188
-        width: 654
-        height: 594
+        x: 3260
+        y: 1199
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -842,10 +842,10 @@ TextureImporter:
       name: BreakShoji_33
       rect:
         serializedVersion: 2
-        x: 3924
-        y: 1188
-        width: 654
-        height: 594
+        x: 3907
+        y: 1199
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -864,10 +864,10 @@ TextureImporter:
       name: BreakShoji_34
       rect:
         serializedVersion: 2
-        x: 4578
-        y: 1188
-        width: 654
-        height: 594
+        x: 4554
+        y: 1199
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -886,10 +886,10 @@ TextureImporter:
       name: BreakShoji_35
       rect:
         serializedVersion: 2
-        x: 5232
-        y: 1188
-        width: 654
-        height: 594
+        x: 5201
+        y: 1199
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -908,10 +908,10 @@ TextureImporter:
       name: BreakShoji_36
       rect:
         serializedVersion: 2
-        x: 0
-        y: 594
-        width: 654
-        height: 594
+        x: 25
+        y: 614
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -930,10 +930,10 @@ TextureImporter:
       name: BreakShoji_37
       rect:
         serializedVersion: 2
-        x: 654
-        y: 594
-        width: 654
-        height: 594
+        x: 672
+        y: 614
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -952,10 +952,10 @@ TextureImporter:
       name: BreakShoji_38
       rect:
         serializedVersion: 2
-        x: 1308
-        y: 594
-        width: 654
-        height: 594
+        x: 1319
+        y: 614
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -974,10 +974,10 @@ TextureImporter:
       name: BreakShoji_39
       rect:
         serializedVersion: 2
-        x: 1962
-        y: 594
-        width: 654
-        height: 594
+        x: 1966
+        y: 614
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -996,10 +996,10 @@ TextureImporter:
       name: BreakShoji_40
       rect:
         serializedVersion: 2
-        x: 2616
-        y: 594
-        width: 654
-        height: 594
+        x: 2613
+        y: 614
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1018,10 +1018,10 @@ TextureImporter:
       name: BreakShoji_41
       rect:
         serializedVersion: 2
-        x: 3270
-        y: 594
-        width: 654
-        height: 594
+        x: 3260
+        y: 614
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1040,10 +1040,10 @@ TextureImporter:
       name: BreakShoji_42
       rect:
         serializedVersion: 2
-        x: 3924
-        y: 594
-        width: 654
-        height: 594
+        x: 3907
+        y: 614
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1062,10 +1062,10 @@ TextureImporter:
       name: BreakShoji_43
       rect:
         serializedVersion: 2
-        x: 4578
-        y: 594
-        width: 654
-        height: 594
+        x: 4554
+        y: 614
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1084,10 +1084,10 @@ TextureImporter:
       name: BreakShoji_44
       rect:
         serializedVersion: 2
-        x: 5232
-        y: 594
-        width: 654
-        height: 594
+        x: 5201
+        y: 614
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1106,10 +1106,10 @@ TextureImporter:
       name: BreakShoji_45
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 654
-        height: 594
+        x: 25
+        y: 29
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1128,10 +1128,10 @@ TextureImporter:
       name: BreakShoji_46
       rect:
         serializedVersion: 2
-        x: 654
-        y: 0
-        width: 654
-        height: 594
+        x: 672
+        y: 29
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1150,10 +1150,10 @@ TextureImporter:
       name: BreakShoji_47
       rect:
         serializedVersion: 2
-        x: 1308
-        y: 0
-        width: 654
-        height: 594
+        x: 1319
+        y: 29
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1172,10 +1172,10 @@ TextureImporter:
       name: BreakShoji_48
       rect:
         serializedVersion: 2
-        x: 1962
-        y: 0
-        width: 654
-        height: 594
+        x: 1966
+        y: 29
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1194,10 +1194,10 @@ TextureImporter:
       name: BreakShoji_49
       rect:
         serializedVersion: 2
-        x: 2616
-        y: 0
-        width: 654
-        height: 594
+        x: 2613
+        y: 29
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1216,10 +1216,10 @@ TextureImporter:
       name: BreakShoji_50
       rect:
         serializedVersion: 2
-        x: 3270
-        y: 0
-        width: 654
-        height: 594
+        x: 3260
+        y: 29
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1238,10 +1238,10 @@ TextureImporter:
       name: BreakShoji_51
       rect:
         serializedVersion: 2
-        x: 3924
-        y: 0
-        width: 654
-        height: 594
+        x: 3907
+        y: 29
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1260,10 +1260,10 @@ TextureImporter:
       name: BreakShoji_52
       rect:
         serializedVersion: 2
-        x: 4578
-        y: 0
-        width: 654
-        height: 594
+        x: 4554
+        y: 29
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1282,10 +1282,10 @@ TextureImporter:
       name: BreakShoji_53
       rect:
         serializedVersion: 2
-        x: 5232
-        y: 0
-        width: 654
-        height: 594
+        x: 5201
+        y: 29
+        width: 647
+        height: 585
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1314,7 +1314,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":9.0,"y":6.0},"gridSpriteSize":{"x":654.0,"y":594.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":9.0,"y":6.0},"gridSpriteSize":{"x":647.0,"y":585.0},"gridSpriteOffset":{"x":25.0,"y":25.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       BreakShoji_0: 1366764384
       BreakShoji_1: -165757344
