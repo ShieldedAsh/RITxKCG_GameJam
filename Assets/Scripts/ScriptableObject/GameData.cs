@@ -44,6 +44,16 @@ public class GameData : ScriptableObject
     [SerializeField]
     private List<TargetScore> targetScores;
     public List<TargetScore> TargetScores { get => targetScores; }
+
+    [Space(10)]
+    [Header("ƒQ[ƒ€Ý’è")]
+    [Space(10)]
+
+    [Header("Œxƒ‰ƒ“ƒv”­¶ŽžŠÔ(I‚í‚è‚©‚ç‰½•b‚©)")]
+    [SerializeField]
+    private float warningLampTime;
+    public float WarningLampTime { get => warningLampTime; }
+
 }
 
 [Serializable]

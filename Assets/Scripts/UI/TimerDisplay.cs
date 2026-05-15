@@ -40,7 +40,7 @@ public class TimerDisplay : MonoBehaviour
             timer = 0f;
             StartCoroutine(PlaySoundAndWait(AudioManager.Instance.SeTimeUp));
         }
-        else if(timer <= 3.0f)
+        else if(timer <= gameData.WarningLampTime)
         {
              siren.SetActive(true);
         }

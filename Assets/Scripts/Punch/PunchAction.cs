@@ -10,6 +10,14 @@ public class PunchAction : MonoBehaviour
     [SerializeField]
     private ComboCounter _comboCounter;
 
+    [Header("右拳プレハブ")]
+    [SerializeField]
+    private Fist rightFist;
+
+    [Header("左拳プレハブ")]
+    [SerializeField]
+    private Fist leftFist;
+
     GameState gameState;
 
     public void Initialize(GameState state)
@@ -25,8 +33,6 @@ public class PunchAction : MonoBehaviour
         {
             Collider2D[] results = Physics2D.OverlapPointAll(punchCollider.bounds.center);
 
-            //背景のオブジェクトがヒットしているかどうかを判定するためのフラグ
-            bool isBackObjectHit = false;
             //ヒットした点数オブジェクトのリスト
             List<ObjectBase> objectBases = new();
             //ヒットした障子オブジェクト
@@ -67,12 +73,33 @@ public class PunchAction : MonoBehaviour
 
                 }
 
+                CreateFist();
                 shojiTear.SetBreakLevelTrueBreak();
             }
             else if (shojiTear.breakLevel == BreakLevel.NotBreak)
             {
+                CreateFist();
                 shojiTear.SetBreakLevelBreak();
             }
         }
     }
+
+    /// <summary>
+    /// 拳の生成
+    /// </summary>
+    private void CreateFist()
+    {
+        if (transform.position.x > 0)
+        {
+            Fist fistR = Instantiate(rightFist, transform.position, Quaternion.identity);
+            fistR.Initialize();
+        }
+        else
+        {
+            Fist fistL = Instantiate(leftFist, transform.position, Quaternion.identity);
+            fistL.Initialize();
+        }
+    }
 }
+
+

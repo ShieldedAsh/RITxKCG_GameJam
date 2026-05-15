@@ -3183,6 +3183,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PunchAction
   punchCollider: {fileID: 835807686}
   _comboCounter: {fileID: 552159127}
+  rightFist: {fileID: 8287336181091829646, guid: 26d20519ac1828146aa018d633f97c0d, type: 3}
+  leftFist: {fileID: 6649288643242409218, guid: f8bcf3c0a78dbfd43aa2e1a11456f9e4, type: 3}
 --- !u!114 &835807688
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3372,7 +3374,7 @@ GameObject:
   - component: {fileID: 882521684}
   - component: {fileID: 882521683}
   m_Layer: 5
-  m_Name: Panch
+  m_Name: Punch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3398,7 +3400,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Panch!
+  m_text: Punch!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0bbd9001075b0c949b86543268d3dbc0, type: 2}
   m_sharedMaterial: {fileID: -240543862888145769, guid: 0bbd9001075b0c949b86543268d3dbc0, type: 2}
