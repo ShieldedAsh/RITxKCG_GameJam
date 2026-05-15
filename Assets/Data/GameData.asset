@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: baab53b600f92d743a43f94adbd92d11, type: 3}
   m_Name: GameData
   m_EditorClassIdentifier: Assembly-CSharp::GameData
-  gameTime: 5
+  gameTime: 20
   startTargetNum: 1
   targetNumIncreaseInterval: 10
   targetNumIncreaseAmount: 2
@@ -40,3 +40,4 @@ MonoBehaviour:
     Score: 600
   - Kind: 9
     Score: 700
+  warningLampTime: 10
