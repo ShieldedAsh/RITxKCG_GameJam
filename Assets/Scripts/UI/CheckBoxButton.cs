@@ -14,6 +14,8 @@ public class CheckBoxButton : MonoBehaviour
 
     void Start()
     {
+        myCheckImage.SetActive(SettingsManager.Instance.CurrentLanguage == language);
+
         Button button = GetComponent<Button>();
         button.onClick.AddListener(() =>
         {

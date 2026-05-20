@@ -4043,6 +4043,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 745262622}
     m_Modifications:
+    - target: {fileID: 2861052636848021151, guid: 3f71b102b11b7484ea29782924b389dc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6460493244586219731, guid: 3f71b102b11b7484ea29782924b389dc, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6821930589494256765, guid: 3f71b102b11b7484ea29782924b389dc, type: 3}
       propertyPath: m_Name
       value: -Settings
